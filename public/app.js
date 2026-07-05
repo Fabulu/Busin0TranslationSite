@@ -15,6 +15,7 @@
       "nav.download": "Download",
       "nav.changelog": "Changelog",
       "nav.bugs": "Bugs",
+      "nav.source": "Source",
 
       "hero.badge": "Public Beta",
       "hero.pitch": "An unofficial English fan translation of a Japan-only PS2 dungeon crawler.",
@@ -119,6 +120,7 @@
       "bugs.contact": "Report bugs and reach me in the <a href=\"https://www.reddit.com/r/wizardry/comments/1uiapnh/busin_0_ps2_translation_beta/\" target=\"_blank\" rel=\"noopener\">r/wizardry release thread</a> — just reply there.",
 
       "footer.disclaimer": "Unofficial fan project. Not affiliated with or endorsed by Atlus or RACJIN. You must legally own the original game. No copyrighted game data is distributed — this is a patch you apply to your own disc dump.",
+      "footer.source": "Source on GitHub",
       "footer.portfolio": "Back to the portfolio",
       "footer.madeby": "Made by Fabian Trunz",
 
@@ -134,6 +136,7 @@
       "nav.download": "Download",
       "nav.changelog": "Changelog",
       "nav.bugs": "Fehler",
+      "nav.source": "Quellcode",
 
       "hero.badge": "Öffentliche Beta",
       "hero.pitch": "Eine inoffizielle englische Fan-Übersetzung eines nur in Japan erschienenen PS2-Dungeon-Crawlers.",
@@ -238,6 +241,7 @@
       "bugs.contact": "Melde Fehler und erreiche mich im <a href=\"https://www.reddit.com/r/wizardry/comments/1uiapnh/busin_0_ps2_translation_beta/\" target=\"_blank\" rel=\"noopener\">r/wizardry-Release-Thread</a> — antworte einfach dort.",
 
       "footer.disclaimer": "Inoffizielles Fan-Projekt. Nicht mit Atlus oder RACJIN verbunden oder von ihnen unterstützt. Du musst das Originalspiel legal besitzen. Es werden keine urheberrechtlich geschützten Spieldaten verbreitet — dies ist ein Patch, den du auf deinen eigenen Disc-Abzug anwendest.",
+      "footer.source": "Quellcode auf GitHub",
       "footer.portfolio": "Zurück zum Portfolio",
       "footer.madeby": "Erstellt von Fabian Trunz",
 
