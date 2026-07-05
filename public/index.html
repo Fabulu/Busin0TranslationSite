@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Busin 0: Wizardry Alternative Neo — English Translation (Beta)</title>
+  <meta name="description" content="An unofficial English fan translation of Busin 0: Wizardry Alternative Neo, a Japan-only PS2 first-person dungeon crawler. Real PS2-hardware compatible. Download the xdelta patch." />
+  <meta name="color-scheme" content="dark" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Busin 0: Wizardry Alternative Neo — English Translation (Beta)" />
+  <meta property="og:description" content="Unofficial English fan translation of a Japan-only PS2 dungeon crawler. Real PS2-hardware compatible. Download the patch." />
+  <meta property="og:image" content="img/battle-ogre.png" />
+  <!-- Fonts (dependency-light, with system serif fallback in CSS) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- No-JS fallback: scroll-reveal hides content via opacity:0 until JS runs -->
+  <noscript>
+    <style>.reveal { opacity: 1 !important; transform: none !important; }</style>
+  </noscript>
+</head>
+<body>
+  <a class="skip-link" href="#about" data-i18n="a11y.skip">Skip to content</a>
+
+  <!-- ===== Sticky top bar ===== -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#top" aria-label="Busin 0 EN — home">
+        <span class="brand-mark">❖</span>
+        <span class="brand-text">BUSIN&nbsp;0 <span class="brand-sep">·</span> EN</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#gallery" data-i18n="nav.gallery">Screenshots</a>
+        <a href="#download" data-i18n="nav.download">Download</a>
+        <a href="#changelog" data-i18n="nav.changelog">Changelog</a>
+        <a href="#bugs" data-i18n="nav.bugs">Bugs</a>
+      </nav>
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" class="lang-btn" data-lang="de">DE</button>
+        <span class="lang-div" aria-hidden="true">|</span>
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ===== Hero ===== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <p class="badge badge-blood" data-i18n="hero.badge">PUBLIC BETA</p>
+        <h1 id="hero-title" class="hero-title">Busin&nbsp;0</h1>
+        <p class="hero-sub">Wizardry Alternative Neo</p>
+        <p class="hero-jp" lang="ja">ブシン0 ウィザードリィ オルタナティブ ネオ</p>
+        <p class="hero-pitch" data-i18n="hero.pitch">An unofficial English fan translation of a Japan-only PS2 dungeon crawler.</p>
+        <div class="hero-cta">
+          <a class="btn btn-blood" href="#download" data-i18n="hero.cta_download">Get the patch</a>
+          <a class="btn btn-ghost" href="#gallery" data-i18n="hero.cta_gallery">See screenshots</a>
+        </div>
+      </div>
+      <div class="scroll-hint" aria-hidden="true">▾</div>
+    </section>
+
+    <!-- ===== About / Features ===== -->
+    <section id="about" class="section reveal" aria-labelledby="about-title">
+      <div class="divider" aria-hidden="true"><span>✦</span></div>
+      <h2 id="about-title" class="section-title" data-i18n="about.title">About the project</h2>
+      <p class="lede" data-i18n="about.intro">Busin 0 is a 40+ hour Wizardry-style first-person dungeon crawler that never left Japan. This project brings it into English by patching the actual disc data, so it runs on real PS2 hardware — not just emulators.</p>
+
+      <ul class="features" role="list">
+        <li class="feature reveal">
+          <span class="feature-icon" aria-hidden="true">🗺</span>
+          <h3 data-i18n="feat.crawler.title">A lost JP-only crawler</h3>
+          <p data-i18n="feat.crawler.body">A 40+ hour first-person dungeon crawler in the Wizardry tradition, now playable in English.</p>
+        </li>
+        <li class="feature reveal">
+          <span class="feature-icon" aria-hidden="true">♜</span>
+          <h3 data-i18n="feat.hardware.title">Real PS2 compatible</h3>
+          <p data-i18n="feat.hardware.body">The patch modifies the real disc data — fonts, scripts, menus — so it works on hardware, not just emulator overlays.</p>
+        </li>
+        <li class="feature reveal">
+          <span class="feature-icon" aria-hidden="true">✍</span>
+          <h3 data-i18n="feat.lines.title">~83,000 lines translated</h3>
+          <p data-i18n="feat.lines.body">Dialogue, narration, menus and item text translated across the entire game.</p>
+        </li>
+        <li class="feature reveal">
+          <span class="feature-icon" aria-hidden="true">⚙</span>
+          <h3 data-i18n="feat.tooling.title">~13,000 lines of tooling</h3>
+          <p data-i18n="feat.tooling.body">Custom reverse-engineering tools were written from scratch to decode the game's formats and re-inject English.</p>
+        </li>
+        <li class="feature reveal">
+          <span class="feature-icon" aria-hidden="true">⚔</span>
+          <h3 data-i18n="feat.localized.title">Fully localized systems</h3>
+          <p data-i18n="feat.localized.body">Character creation, combat, quests, equipment and menus are all in English.</p>
+        </li>
+        <li class="feature reveal">
+          <span class="feature-icon" aria-hidden="true">🛡</span>
+          <h3 data-i18n="feat.beta.title">A living public beta</h3>
+          <p data-i18n="feat.beta.body">The major systems work start to finish; bug reports from players drive the project forward.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===== Screenshot gallery ===== -->
+    <section id="gallery" class="section reveal" aria-labelledby="gallery-title">
+      <div class="divider" aria-hidden="true"><span>✦</span></div>
+      <h2 id="gallery-title" class="section-title" data-i18n="gallery.title">Screenshots</h2>
+      <p class="lede" data-i18n="gallery.intro">Captured in-game from the translated build. Click any image to enlarge.</p>
+      <ul class="gallery" role="list">
+        <li class="shot reveal">
+          <button type="button" class="shot-btn" data-index="0">
+            <img src="img/battle-ogre.png" width="640" height="480" loading="lazy" alt="An English battle screen: the party faces an ogre, with the Party Action menu and six character bars at the bottom." />
+          </button>
+          <span class="shot-cap" data-i18n="cap.battle">Turn-based combat against an ogre, fully in English.</span>
+        </li>
+        <li class="shot reveal">
+          <button type="button" class="shot-btn" data-index="1">
+            <img src="img/chargen-race.png" width="640" height="480" loading="lazy" alt="Character creation: a Select a race menu listing Human, Elf, Gnome, Dwarf and Hobbit beside a hero portrait." />
+          </button>
+          <span class="shot-cap" data-i18n="cap.chargen_race">Character creation — choosing a race.</span>
+        </li>
+        <li class="shot reveal">
+          <button type="button" class="shot-btn" data-index="2">
+            <img src="img/chargen-status.png" width="640" height="480" loading="lazy" alt="Character status screen showing translated stats HP, Str, Int, Pie, Vit, Agi, Lck and a confirmation prompt." />
+          </button>
+          <span class="shot-cap" data-i18n="cap.chargen_status">Translated stats and personality traits.</span>
+        </li>
+        <li class="shot reveal">
+          <button type="button" class="shot-btn" data-index="3">
+            <img src="img/character-roster.png" width="640" height="480" loading="lazy" alt="Adventurer roster screen listing party members with race, alignment, class and personality details in English." />
+          </button>
+          <span class="shot-cap" data-i18n="cap.roster">The adventurer roster with English bios.</span>
+        </li>
+        <li class="shot reveal">
+          <button type="button" class="shot-btn" data-index="4">
+            <img src="img/equipment.png" width="640" height="480" loading="lazy" alt="Equipment screen comparing a Longsword, Chain Mail and Shield against detailed combat stats." />
+          </button>
+          <span class="shot-cap" data-i18n="cap.equipment">Equipment and item descriptions in English.</span>
+        </li>
+        <li class="shot reveal">
+          <button type="button" class="shot-btn" data-index="5">
+            <img src="img/request-list.png" width="640" height="480" loading="lazy" alt="A parchment Request List quest screen describing an Adventurer Assistance Program, client and reward." />
+          </button>
+          <span class="shot-cap" data-i18n="cap.requests">Quest and request board, translated.</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===== Download ===== -->
+    <section id="download" class="section reveal" aria-labelledby="download-title">
+      <div class="divider" aria-hidden="true"><span>✦</span></div>
+      <h2 id="download-title" class="section-title" data-i18n="dl.title">Get the patch</h2>
+      <p class="lede" data-i18n="dl.intro">The translation ships as an xdelta patch you apply to your own legal Japanese disc image. No game data is included.</p>
+
+      <div class="download-card">
+        <a class="btn btn-download" href="patch/busin0_en_v166.xdelta" download="busin0_en_v166.xdelta">
+          <span class="btn-download-main" data-i18n="dl.button">Download the patch</span>
+          <span class="btn-download-sub">busin0_en_v166.xdelta · 1003&nbsp;KB · v166 <span data-i18n="dl.beta">beta</span></span>
+        </a>
+        <p class="download-secondary">
+          <a href="patch/README.md" data-i18n="dl.readme">Read the README</a>
+        </p>
+      </div>
+
+      <!-- Legal ISO callout -->
+      <div class="callout" role="note">
+        <span class="callout-icon" aria-hidden="true">⚠</span>
+        <p data-i18n="dl.callout">You must supply your own legally-dumped Japanese disc (SLPM-65378, v2.01). No copyrighted game data is distributed.</p>
+      </div>
+
+      <!-- Apply guide -->
+      <div class="apply">
+        <h3 class="apply-title" data-i18n="dl.apply_title">How to apply</h3>
+        <ol class="apply-steps">
+          <li>
+            <span data-i18n="dl.apply_verify">Verify your JP ISO's MD5 matches the source hash below.</span>
+          </li>
+          <li>
+            <span data-i18n="dl.apply_cli">Apply with xdelta3 on the command line:</span>
+            <pre class="code"><code>xdelta3 -d -s "Busin 0 - Wizardry Alternative Neo (Japan) (v2.01).iso" busin0_en_v166.xdelta BUSIN0_EN.iso</code></pre>
+          </li>
+          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v166.xdelta, then Apply.</li>
+          <li data-i18n="dl.apply_boot">Boot the resulting ISO fresh from the title screen. Do not load an old save state from before patching.</li>
+        </ol>
+
+        <div class="md5-grid">
+          <div class="md5-chip">
+            <span class="md5-label" data-i18n="dl.md5_source">Source ISO MD5</span>
+            <code class="md5-val">48a5639afdf9931913c7dde298dc5349</code>
+            <button type="button" class="copy-btn" data-copy="48a5639afdf9931913c7dde298dc5349" data-i18n-aria="dl.copy_aria" aria-label="Copy source MD5">⧉</button>
+          </div>
+          <div class="md5-chip">
+            <span class="md5-label" data-i18n="dl.md5_patched">Patched ISO MD5</span>
+            <code class="md5-val">76a75374b0e6f2e7b8e767a1d545b408</code>
+            <button type="button" class="copy-btn" data-copy="67e8b1bb0ac07aa18f174f73a31154a6" data-i18n-aria="dl.copy_aria" aria-label="Copy patched MD5">⧉</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Report bugs ===== -->
+    <!-- ===== Changelog ===== -->
+    <section id="changelog" class="section reveal" aria-labelledby="changelog-title">
+      <div class="divider" aria-hidden="true"><span>&#10038;</span></div>
+      <h2 id="changelog-title" class="section-title" data-i18n="cl.title">Changelog</h2>
+      <p class="lede" data-i18n="cl.intro">What changed in each release. Expand a version for the details.</p>
+
+      <details class="changelog" open>
+        <summary>
+          <span class="cl-version">v166</span>
+          <span class="cl-date" data-i18n="cl.v166.date">July 2026</span>
+          <span class="cl-sub" data-i18n="cl.v166.sub">The Library Update: the entire in-game library translated, plus ~900 repaired or new dialogue lines.</span>
+        </summary>
+        <ul class="cl-list" role="list">
+          <li data-i18n="cl.v166.i1">The in-game LIBRARY is now 100% English &mdash; monster compendium (official US bestiary names + all bios), magic library, Lidi&rsquo;s Guide to Duhan, glossary, key items, book texts and Simzon&rsquo;s expedition journal.</li>
+          <li data-i18n="cl.v166.i2">Even the library&rsquo;s decorative artwork: the section banners (Library, Bestiary, Glossary&hellip;), sub-tabs and footer hints are re-drawn in English.</li>
+          <li data-i18n="cl.v166.i3">~560 dialogue lines in one town script were showing text from a DIFFERENT script &mdash; all purged and freshly translated (Romi the ghost fortune-teller, the Medal Exchange, the Vago subplot and more). A sister script&rsquo;s misaligned lines were repaired too.</li>
+          <li data-i18n="cl.v166.i4">Battle techniques complete: names, descriptions, party requirements and setup messages, plus item-activation and party-rank messages.</li>
+          <li data-i18n="cl.v166.i5">One spelling everywhere: Skedim, Vigger, Duhan, Fudo, Vago, Venoa, MacBain and friends unified across the whole game.</li>
+          <li data-i18n="cl.v166.i6">Deep-cut fixes: the library&rsquo;s ability descriptions were shifted by two slots since the first release; a data corruption in the library index was repaired.</li>
+        </ul>
+      </details>
+
+      <details class="changelog">
+        <summary>
+          <span class="cl-version">v162</span>
+          <span class="cl-date" data-i18n="cl.v162.date">July 2026</span>
+          <span class="cl-sub" data-i18n="cl.v162.sub">The completeness update: ending narration, hundreds of missing lines, names everywhere.</span>
+        </summary>
+        <ul class="cl-list" role="list">
+          <li data-i18n="cl.v162.i1">The ENDING narration is now in English &mdash; the game&rsquo;s final scene had been left in Japanese.</li>
+          <li data-i18n="cl.v162.i2">~440 previously-missing short dialogue lines across the town hubs (shop patter, lever clicks, ghost whispers, lottery draws).</li>
+          <li data-i18n="cl.v162.i3">NPC nameplates translated (Knight Commander, nobles, sorcerers&hellip;) and a real howler fixed: the Knights faction was shipping as &ldquo;Adventurer&rdquo;.</li>
+          <li data-i18n="cl.v162.i4">Battle technique (AA) names, descriptions and party requirements are now in English, matching the setup-menu names.</li>
+          <li data-i18n="cl.v162.i5">All ally roster names romanized (Yoppen, Lidi, Turgot, Bertin, Weil, Belgran&hellip;).</li>
+          <li data-i18n="cl.v162.i6">Character creation polish: three class names were in each other&rsquo;s slots (Knight/Onmitsu/Shogun), several traits had inverted meanings (&ldquo;Frugal&rdquo; was actually Wasteful, &ldquo;Brave&rdquo; a Coward), and short names like Fight/Alchem are now Fighter/Alchemist.</li>
+          <li data-i18n="cl.v162.i7">Chants and incantations render as intended (&ldquo;Est Repere Burae&hellip;&rdquo;), plus quest-log topics and class lists.</li>
+          <li data-i18n="cl.v162.i8">Note: the ending is translated but render-untested &mdash; if you finish the game, a screenshot would be gold.</li>
+        </ul>
+      </details>
+
+      <details class="changelog">
+        <summary>
+          <span class="cl-version">v160</span>
+          <span class="cl-date" data-i18n="cl.v160.date">July 2026</span>
+          <span class="cl-sub" data-i18n="cl.v160.sub">The text-correctness update: spell data, battle text, and the typesetting engine.</span>
+        </summary>
+        <ul class="cl-list" role="list">
+          <li data-i18n="cl.v160.i1">Every spell description re-verified against the original data &mdash; 46 of 56 were wrong (most showed a different spell's text; the basic heal claimed to be an attack buff). All now match the real effects.</li>
+          <li data-i18n="cl.v160.i2">Spell names aligned with the official US localization of the series: Feal, Leap, Barrets, Kuld, Spleem and more.</li>
+          <li data-i18n="cl.v160.i3">Battle prompts fixed: the turn confirmation asked &ldquo;Open box?&rdquo; &mdash; it now reads &ldquo;Start turn?&rdquo; with Go!!/Redo, and the per-attack popup says Atk instead of Gain. (Root cause: a corrupted decoding dictionary had turned battle text into treasure-chest text.)</li>
+          <li data-i18n="cl.v160.i4">Battle popup labels now render inside their boxes instead of one line below them &mdash; a bug present since the first release.</li>
+          <li data-i18n="cl.v160.i5">Uneven letter spacing fixed game-wide (&ldquo;Ge nde r se ts&rdquo; &rarr; &ldquo;Gender sets&rdquo;) on character creation, status and request screens &mdash; the engine was measuring a different font than the one it drew.</li>
+          <li data-i18n="cl.v160.i6">Library screen category rows are now in English (Guide / Books).</li>
+          <li data-i18n="cl.v160.i7">Under the hood: a full project audit, a 279-test regression suite, and repairs to the glyph-decoding dictionary that caused several mistranslations.</li>
+        </ul>
+      </details>
+
+      <details class="changelog">
+        <summary>
+          <span class="cl-version">v151</span>
+          <span class="cl-date" data-i18n="cl.v151.date">June 2026</span>
+          <span class="cl-sub" data-i18n="cl.v151.sub">Initial public beta.</span>
+        </summary>
+        <ul class="cl-list" role="list">
+          <li data-i18n="cl.v151.i1">~83,000 lines translated: dialogue, narration, quests, items and menus.</li>
+          <li data-i18n="cl.v151.i2">All major systems in English: character creation, combat, equipment, shops, facilities and bulletin boards.</li>
+          <li data-i18n="cl.v151.i3">Proportional text rendering with automatic re-wrapping and pagination.</li>
+          <li data-i18n="cl.v151.i4">Runs on real PS2 hardware &mdash; the patch modifies the disc data itself, not emulator overlays.</li>
+          <li data-i18n="cl.v151.i5">Built with ~13,000 lines of custom reverse-engineering tooling.</li>
+        </ul>
+      </details>
+    </section>
+
+    <section id="bugs" class="section reveal" aria-labelledby="bugs-title">
+      <div class="divider" aria-hidden="true"><span>✦</span></div>
+      <h2 id="bugs-title" class="section-title" data-i18n="bugs.title">Report bugs</h2>
+      <p class="lede" data-i18n="bugs.intro">This is a public beta — bug reports are the whole point. Deep and late-game content is largely untested.</p>
+      <p class="bugs-lead" data-i18n="bugs.what">When something breaks, the most useful thing you can send is a save to reproduce from. Please include:</p>
+      <ul class="bugs-list" role="list">
+        <li data-i18n="bugs.item_state">A PCSX2 save state (default hotkey F1) from just before a crash — not at the frozen screen.</li>
+        <li data-i18n="bugs.item_mcard">An in-game memory-card save near the problem.</li>
+        <li data-i18n="bugs.item_repro">A one-line description of what you did.</li>
+        <li data-i18n="bugs.item_shot">A screenshot for any bad text, formatting or untranslated content.</li>
+        <li data-i18n="bugs.item_version">The patch version (v166 beta).</li>
+        <li data-i18n="bugs.item_emu">Your emulator and version (or "real PS2"), plus your PCSX2 renderer (Hardware vs Software) for graphics glitches.</li>
+      </ul>
+      <p class="contact-todo" data-i18n-html="bugs.contact">Report bugs and reach me in the <a href="https://www.reddit.com/r/wizardry/comments/1uiapnh/busin_0_ps2_translation_beta/" target="_blank" rel="noopener">r/wizardry release thread</a> — just reply there.</p>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="divider" aria-hidden="true"><span>❖</span></div>
+    <p class="disclaimer" data-i18n="footer.disclaimer">Unofficial fan project. Not affiliated with or endorsed by Atlus or RACJIN. You must legally own the original game. No copyrighted game data is distributed — this is a patch you apply to your own disc dump.</p>
+    <p class="footer-links">
+      <a href="https://fabiantrunz.pages.dev" rel="noopener" data-i18n="footer.portfolio">Back to the portfolio</a>
+    </p>
+    <p class="madeby" data-i18n="footer.madeby">Made by Fabian Trunz</p>
+  </footer>
+
+  <!-- ===== Lightbox ===== -->
+  <div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Screenshot viewer">
+    <button type="button" class="lb-close" id="lb-close" data-i18n-aria="lightbox.close" aria-label="Close">✕</button>
+    <button type="button" class="lb-nav lb-prev" id="lb-prev" data-i18n-aria="lightbox.prev" aria-label="Previous">‹</button>
+    <figure class="lb-figure">
+      <img id="lb-img" src="" alt="" />
+      <figcaption id="lb-cap"></figcaption>
+    </figure>
+    <button type="button" class="lb-nav lb-next" id="lb-next" data-i18n-aria="lightbox.next" aria-label="Next">›</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

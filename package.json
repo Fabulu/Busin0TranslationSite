@@ -1,0 +1,10 @@
+{
+  "name": "busin0-en-site",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Promo/info site for the Busin 0: Wizardry Alternative Neo English fan translation (PS2).",
+  "scripts": {
+    "deploy": "npx wrangler@3 pages deploy public --project-name=busin0-en --branch=main",
+    "preview": "npx wrangler@3 pages dev public"
+  }
+}

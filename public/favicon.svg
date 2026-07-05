@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Busin 0 EN">
+  <rect width="64" height="64" rx="10" fill="#0a0807"/>
+  <rect x="3" y="3" width="58" height="58" rx="8" fill="none" stroke="#c8a24a" stroke-width="1.5" opacity="0.6"/>
+  <!-- sword -->
+  <g stroke="#c8a24a" stroke-width="2.6" fill="#c8a24a" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="32" y1="12" x2="32" y2="44"/>
+    <line x1="24" y1="40" x2="40" y2="40"/>
+    <path d="M32 44 l-3 6 h6 z" fill="#7e1d18" stroke="#7e1d18"/>
+  </g>
+  <!-- pommel gem -->
+  <circle cx="32" cy="52" r="2.4" fill="#e8c877" stroke="none"/>
+</svg>
