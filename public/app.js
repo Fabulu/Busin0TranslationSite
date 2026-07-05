@@ -22,10 +22,10 @@
       "hero.cta_gallery": "See screenshots",
 
       "about.title": "About the project",
-      "about.intro": "Busin 0 is a 40+ hour Wizardry-style first-person dungeon crawler that never left Japan. This project brings it into English by patching the actual disc data, so it runs on real PS2 hardware — not just emulators.",
+      "about.intro": "Busin 0 is a 70+ hour Wizardry-style first-person dungeon crawler that never left Japan. This project brings it into English by patching the actual disc data, so it runs on real PS2 hardware — not just emulators.",
 
       "feat.crawler.title": "A lost JP-only crawler",
-      "feat.crawler.body": "A 40+ hour first-person dungeon crawler in the Wizardry tradition, now playable in English.",
+      "feat.crawler.body": "A 70+ hour first-person dungeon crawler in the Wizardry tradition, now playable in English.",
       "feat.hardware.title": "Real PS2 compatible",
       "feat.hardware.body": "The patch modifies the real disc data — fonts, scripts, menus — so it works on hardware, not just emulator overlays.",
       "feat.lines.title": "~83,000 lines translated",
@@ -141,10 +141,10 @@
       "hero.cta_gallery": "Screenshots ansehen",
 
       "about.title": "Über das Projekt",
-      "about.intro": "Busin 0 ist ein über 40 Stunden langer Dungeon-Crawler aus der Ego-Perspektive im Stil von Wizardry, der Japan nie verlassen hat. Dieses Projekt bringt ihn ins Englische, indem es die Disc-Daten selbst patcht — so läuft er auf echter PS2-Hardware, nicht nur auf Emulatoren.",
+      "about.intro": "Busin 0 ist ein über 70 Stunden langer Dungeon-Crawler aus der Ego-Perspektive im Stil von Wizardry, der Japan nie verlassen hat. Dieses Projekt bringt ihn ins Englische, indem es die Disc-Daten selbst patcht — so läuft er auf echter PS2-Hardware, nicht nur auf Emulatoren.",
 
       "feat.crawler.title": "Ein verlorener JP-Crawler",
-      "feat.crawler.body": "Ein über 40 Stunden langer Ego-Dungeon-Crawler in der Wizardry-Tradition, jetzt auf Englisch spielbar.",
+      "feat.crawler.body": "Ein über 70 Stunden langer Ego-Dungeon-Crawler in der Wizardry-Tradition, jetzt auf Englisch spielbar.",
       "feat.hardware.title": "Echte PS2-Kompatibilität",
       "feat.hardware.body": "Der Patch verändert die echten Disc-Daten — Schriften, Skripte, Menüs — und funktioniert daher auf Hardware, nicht nur über Emulator-Overlays.",
       "feat.lines.title": "~83'000 übersetzte Zeilen",
