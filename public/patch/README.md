@@ -19,12 +19,12 @@ An unofficial English fan translation of **Busin 0: Wizardry Alternative Neo** (
 
 CLI:
 ```
-xdelta3 -d -s "Busin 0 - Wizardry Alternative Neo (Japan) (v2.01).iso" busin0_en_v171.xdelta BUSIN0_EN.iso
+xdelta3 -d -s "Busin 0 - Wizardry Alternative Neo (Japan) (v2.01).iso" busin0_en_v168.xdelta BUSIN0_EN.iso
 ```
-GUI ([Delta Patcher](https://github.com/marco-calautti/DeltaPatcher)): Original file = your JP ISO, Patch = `busin0_en_v171.xdelta`, then Apply.
+GUI ([Delta Patcher](https://github.com/marco-calautti/DeltaPatcher)): Original file = your JP ISO, Patch = `busin0_en_v168.xdelta`, then Apply.
 
 **Verify your patched output** (optional but recommended) — the resulting ISO MD5 should be:
-`622e1ff2284a577f7a770e2ba9583f32`. If it matches, the patch applied perfectly.
+`57d3c0c665bb51fde8ca7fda253db270`. If it matches, the patch applied perfectly.
 
 Boot the resulting `BUSIN0_EN.iso`:
 - **PCSX2:** File → Boot ISO. **Boot fresh from the title screen** — do NOT load an old save state from before patching (save states embed the old game data and will show stale/Japanese content regardless of the ISO).
@@ -40,7 +40,7 @@ Boot the resulting `BUSIN0_EN.iso`:
 
 - **Deep / late content is largely UNTESTED.** Expect bugs past the early dungeon — that's what this beta is for.
 - **Battle was recently fixed** (an "empty arena / enemies never appear / camera pans forever" bug). If you hit a fight like that, it's a regression — **please send a save** (see below).
-- **Fixed in v171:** a major battle bug (some fights showed no monster / locked the camera), broken choices that showed a continue-arrow instead of options, the dungeon honesty-box shop softlock + scattered sign text, character-creation stat descriptions, and several menu/name labels. Plus everything from v168 (trait wording) and v166 (the Library Update).
+- **Fixed in v168:** character-creation personality-trait wording (Simple -> Bold, Sensitive -> Superstitious, Masochist -> Narcissist). Plus everything from v167 (Bishop class description, dialogue/item-name cleanups, unified spellings) and v166 (the Library Update: the entire in-game library translated, text + banner artwork, ~900 repaired/new dialogue lines, game-wide name unification).
 - **Likely still Japanese or unverified:** equipment **type icons** (weapon/armor category labels), the **credits / staff roll** (probably a video stream), some **late-game/ending text fit**. Reports welcome.
 - **Minor cosmetic:** the **L1/R1** bottom-bar hints and a few late-game screens are still unverified; some NPC nameplates and library entries remain Japanese (queued for the next update).
 - **Sparse untranslated dialogue** may still appear in side content (not every resource has been scanned).
@@ -58,7 +58,7 @@ The single most useful thing you can send is **a save I can reproduce from.**
 1. A **save state (or memory-card save) near that screen** + a **screenshot** + **which screen/menu** it is.
 
 **Always include:**
-- The **patch version** (v171 beta)
+- The **patch version** (v168 beta)
 - **Emulator + version** (or "real PS2"), and your **PCSX2 renderer** (Hardware vs Software) if it's a graphics glitch
 - Where to send: **[ YOUR CONTACT / SUBREDDIT / DISCORD / EMAIL HERE ]**
 

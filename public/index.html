@@ -158,9 +158,9 @@
       <p class="lede" data-i18n="dl.intro">The translation ships as an xdelta patch you apply to your own legal Japanese disc image. No game data is included.</p>
 
       <div class="download-card">
-        <a class="btn btn-download" href="patch/busin0_en_v171.xdelta" download="busin0_en_v171.xdelta">
+        <a class="btn btn-download" href="patch/busin0_en_v168.xdelta" download="busin0_en_v168.xdelta">
           <span class="btn-download-main" data-i18n="dl.button">Download the patch</span>
-          <span class="btn-download-sub">busin0_en_v171.xdelta · 1005&nbsp;KB · v171 <span data-i18n="dl.beta">beta</span></span>
+          <span class="btn-download-sub">busin0_en_v168.xdelta · 1002&nbsp;KB · v168 <span data-i18n="dl.beta">beta</span></span>
         </a>
         <p class="download-secondary">
           <a href="patch/README.md" data-i18n="dl.readme">Read the README</a>
@@ -182,9 +182,9 @@
           </li>
           <li>
             <span data-i18n="dl.apply_cli">Apply with xdelta3 on the command line:</span>
-            <pre class="code"><code>xdelta3 -d -s "Busin 0 - Wizardry Alternative Neo (Japan) (v2.01).iso" busin0_en_v171.xdelta BUSIN0_EN.iso</code></pre>
+            <pre class="code"><code>xdelta3 -d -s "Busin 0 - Wizardry Alternative Neo (Japan) (v2.01).iso" busin0_en_v168.xdelta BUSIN0_EN.iso</code></pre>
           </li>
-          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v171.xdelta, then Apply.</li>
+          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v168.xdelta, then Apply.</li>
           <li data-i18n="dl.apply_boot">Boot the resulting ISO fresh from the title screen. Do not load an old save state from before patching.</li>
         </ol>
 
@@ -196,7 +196,7 @@
           </div>
           <div class="md5-chip">
             <span class="md5-label" data-i18n="dl.md5_patched">Patched ISO MD5</span>
-            <code class="md5-val">622e1ff2284a577f7a770e2ba9583f32</code>
+            <code class="md5-val">57d3c0c665bb51fde8ca7fda253db270</code>
             <button type="button" class="copy-btn" data-copy="67e8b1bb0ac07aa18f174f73a31154a6" data-i18n-aria="dl.copy_aria" aria-label="Copy patched MD5">⧉</button>
           </div>
         </div>
@@ -211,22 +211,6 @@
       <p class="lede" data-i18n="cl.intro">What changed in each release. Expand a version for the details.</p>
 
       <details class="changelog" open>
-        <summary>
-          <span class="cl-version">v171</span>
-          <span class="cl-date" data-i18n="cl.v171.date">July 2026</span>
-          <span class="cl-sub" data-i18n="cl.v171.sub">The bug-fix update: a major battle fix, selectable choices restored, dungeon shops &amp; signs repaired.</span>
-        </summary>
-        <ul class="cl-list" role="list">
-          <li data-i18n="cl.v171.i1"><strong>Fixed an &ldquo;empty battle&rdquo; softlock</strong> &mdash; some fights showed no monster and/or locked the camera. The character-creation font data was sitting in battle memory and corrupting encounters; it&rsquo;s now moved fully out of the way.</li>
-          <li data-i18n="cl.v171.i2"><strong>Choices work again.</strong> Events that showed a blank continue-arrow instead of options (the &ldquo;lucky job&rdquo; game, the resurrection ceremony, Fight/Flee prompts) now let you actually choose.</li>
-          <li data-i18n="cl.v171.i3">The dungeon honesty-box shop no longer softlocks (its exit was one of those broken choices), and the scattered/wrong text on dungeon signs and shop boards is fixed.</li>
-          <li data-i18n="cl.v171.i4">Character-creation stat descriptions corrected (gender, Human, Elf), plus tavern (&ldquo;No completed requests&rdquo;) and camp-menu (Give &rarr; Discard) label fixes.</li>
-          <li data-i18n="cl.v171.i5">Fixed an NPC wrongly nameplated &ldquo;Knights&rdquo;.</li>
-          <li data-i18n="cl.v171.i6">Note: the empty-battle fix is a deep engine change. If you still hit a fight with no monster or a stuck camera, please report it &mdash; it helps a lot.</li>
-        </ul>
-      </details>
-
-      <details class="changelog">
         <summary>
           <span class="cl-version">v168</span>
           <span class="cl-date" data-i18n="cl.v168.date">July 2026</span>
@@ -328,7 +312,7 @@
         <li data-i18n="bugs.item_mcard">An in-game memory-card save near the problem.</li>
         <li data-i18n="bugs.item_repro">A one-line description of what you did.</li>
         <li data-i18n="bugs.item_shot">A screenshot for any bad text, formatting or untranslated content.</li>
-        <li data-i18n="bugs.item_version">The patch version (v171 beta).</li>
+        <li data-i18n="bugs.item_version">The patch version (v168 beta).</li>
         <li data-i18n="bugs.item_emu">Your emulator and version (or "real PS2"), plus your PCSX2 renderer (Hardware vs Software) for graphics glitches.</li>
       </ul>
       <p class="contact-todo" data-i18n-html="bugs.contact">Report bugs and reach me in the <a href="https://www.reddit.com/r/wizardry/comments/1uiapnh/busin_0_ps2_translation_beta/" target="_blank" rel="noopener">r/wizardry release thread</a> — just reply there.</p>

@@ -3,7 +3,7 @@ r"""
 Patch round-trip / regeneration test for the Busin 0 EN translation.
 
 Applies the shipped xdelta patch to the source Japanese ISO and verifies the
-result is byte-for-byte the expected v171 patched ISO (by MD5). Also confirms
+result is byte-for-byte the expected v168 patched ISO (by MD5). Also confirms
 the source ISO MD5 and that the copy of the patch served by the website is
 byte-identical to the canonical release patch.
 
@@ -24,11 +24,11 @@ import sys
 # ---------------------------------------------------------------- config
 WIZ = r"C:\programmieren\wizardrytranslation"
 SOURCE_ISO = os.path.join(WIZ, "Busin 0 - Wizardry Alternative Neo (Japan) (v2.01).iso")
-RELEASE_PATCH = os.path.join(WIZ, "release", "busin0_en_v171.xdelta")
-SITE_PATCH = r"C:\Programmieren\WizardryTranslationSite\public\patch\busin0_en_v171.xdelta"
+RELEASE_PATCH = os.path.join(WIZ, "release", "busin0_en_v168.xdelta")
+SITE_PATCH = r"C:\Programmieren\WizardryTranslationSite\public\patch\busin0_en_v168.xdelta"
 
 SOURCE_MD5 = "48a5639afdf9931913c7dde298dc5349"   # JP SLPM-65378 v2.01
-PATCHED_MD5 = "622e1ff2284a577f7a770e2ba9583f32"  # v171 patched ISO
+PATCHED_MD5 = "57d3c0c665bb51fde8ca7fda253db270"  # v168 patched ISO
 
 # where to write the decoded ISO (overwritten each run, never deleted)
 WORK_DIR = os.environ.get(
