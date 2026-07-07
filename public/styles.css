@@ -721,3 +721,8 @@ img { display: block; max-width: 100%; }
   color: #cfc4ae;
   line-height: 1.5;
 }
+
+
+.cl-dl{display:inline-flex;align-items:center;gap:.45rem;margin-top:.9rem;padding:.42rem .85rem;border:1px solid var(--stone-light);border-radius:var(--radius);color:var(--gold);background:rgba(230,168,41,.06);text-decoration:none;font-family:var(--serif-body);font-size:.92rem;line-height:1;transition:border-color .15s,color .15s,background .15s}
+.cl-dl::before{content:"93";font-weight:700}
+.cl-dl:hover{border-color:var(--gold);color:var(--gold-bright);background:rgba(230,168,41,.13)}

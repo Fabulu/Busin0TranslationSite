@@ -217,13 +217,14 @@
           <span class="cl-sub" data-i18n="cl.v173.sub">The battle-fix update: the empty-battle softlock finally solved, plus selectable choices, dungeon signs &amp; shops, and name/menu fixes.</span>
         </summary>
         <ul class="cl-list" role="list">
-          <li data-i18n="cl.v173.i1"><strong>Fixed the &ldquo;empty battle&rdquo; softlock for real</strong> &mdash; some fights showed no monster and/or a stuck camera. The character-creation font data was sitting in battle memory and stalling the monster load; it&rsquo;s now removed entirely. (Small trade-off: character-creation text spacing is a touch less even.)</li>
+          <li data-i18n="cl.v173.i1"><strong>The empty-battle softlock is NOT fully fixed yet.</strong> This version relocated some character-creation font data out of battle memory, but reports show fights can still show no monster / a stuck camera. The real cause (our font tables sitting in battle memory) is now pinned and a proper fix is in progress. If you hit it, an <strong>earlier patch below may be more stable</strong> for now.</li>
           <li data-i18n="cl.v173.i2"><strong>Choices work again.</strong> Events that showed a blank continue-arrow instead of options (the &ldquo;lucky job&rdquo; game, the resurrection ceremony, Fight/Flee prompts) now let you actually choose.</li>
           <li data-i18n="cl.v173.i3">Dungeon signs and the honesty-box shop are readable again &mdash; the scattered/wrong text is fixed.</li>
           <li data-i18n="cl.v173.i4">Name fixes: &ldquo;Adventurer&rdquo; &rarr; &ldquo;Fighter&rdquo; and &ldquo;Sorcerer&rdquo; &rarr; &ldquo;Mage&rdquo;, the party names Vago and MacBain now show in English, and a knight NPC reads &ldquo;Knight&rdquo; instead of &ldquo;Knights&rdquo;.</li>
           <li data-i18n="cl.v173.i5">Menu &amp; label polish: character-creation stat descriptions (gender, Human, Elf), tavern and camp labels, the synthesis &ldquo;Form up?&rdquo; prompt, a wider item-name box on the treasure screen, and spell-book descriptions that wrap instead of running off-screen.</li>
           <li data-i18n="cl.v173.i6">Note: the empty-battle fix is a deep engine change. If you still hit a fight with no monster or a stuck camera, please report it &mdash; it helps a lot.</li>
         </ul>
+        <a class="cl-dl" href="patch/busin0_en_v173.xdelta" download="busin0_en_v173.xdelta"><span data-i18n="cl.download">Download this version</span> · busin0_en_v173.xdelta · 1005&nbsp;KB</a>
       </details>
 
       <details class="changelog">
@@ -235,6 +236,7 @@
         <ul class="cl-list" role="list">
           <li data-i18n="cl.v168.i1">Three personality traits reworded to match what the Japanese actually says: &ldquo;Simple&rdquo; &rarr; <strong>Bold</strong>, &ldquo;Sensitive&rdquo; &rarr; <strong>Superstitious</strong>, and &ldquo;Masochist&rdquo; &rarr; <strong>Narcissist</strong>.</li>
         </ul>
+        <a class="cl-dl" href="patch/busin0_en_v168.xdelta" download="busin0_en_v168.xdelta"><span data-i18n="cl.download">Download this version</span> · busin0_en_v168.xdelta · 1002&nbsp;KB</a>
       </details>
 
       <details class="changelog">
@@ -249,6 +251,7 @@
           <li data-i18n="cl.v167.i3">More consistent spelling across the game (Orogad, Langobalt) and the &ldquo;Holy&rdquo; magic school label now matches the class descriptions.</li>
           <li data-i18n="cl.v167.i4">Under the hood: a larger automated test suite and cleaner build verification &mdash; no more false alarms on the two by-design gender-glyph checks.</li>
         </ul>
+        <a class="cl-dl" href="patch/busin0_en_v167.xdelta" download="busin0_en_v167.xdelta"><span data-i18n="cl.download">Download this version</span> · busin0_en_v167.xdelta · 1002&nbsp;KB</a>
       </details>
 
       <details class="changelog">
@@ -265,6 +268,7 @@
           <li data-i18n="cl.v166.i5">One spelling everywhere: Skedim, Vigger, Duhan, Fudo, Vago, Venoa, MacBain and friends unified across the whole game.</li>
           <li data-i18n="cl.v166.i6">Deep-cut fixes: the library&rsquo;s ability descriptions were shifted by two slots since the first release; a data corruption in the library index was repaired.</li>
         </ul>
+        <a class="cl-dl" href="patch/busin0_en_v166.xdelta" download="busin0_en_v166.xdelta"><span data-i18n="cl.download">Download this version</span> · busin0_en_v166.xdelta · 1002&nbsp;KB</a>
       </details>
 
       <details class="changelog">
@@ -283,6 +287,7 @@
           <li data-i18n="cl.v162.i7">Chants and incantations render as intended (&ldquo;Est Repere Burae&hellip;&rdquo;), plus quest-log topics and class lists.</li>
           <li data-i18n="cl.v162.i8">Note: the ending is translated but render-untested &mdash; if you finish the game, a screenshot would be gold.</li>
         </ul>
+        <a class="cl-dl" href="patch/busin0_en_v162.xdelta" download="busin0_en_v162.xdelta"><span data-i18n="cl.download">Download this version</span> · busin0_en_v162.xdelta · 921&nbsp;KB</a>
       </details>
 
       <details class="changelog">
@@ -300,6 +305,7 @@
           <li data-i18n="cl.v160.i6">Library screen category rows are now in English (Guide / Books).</li>
           <li data-i18n="cl.v160.i7">Under the hood: a full project audit, a 279-test regression suite, and repairs to the glyph-decoding dictionary that caused several mistranslations.</li>
         </ul>
+        <a class="cl-dl" href="patch/busin0_en_v160.xdelta" download="busin0_en_v160.xdelta"><span data-i18n="cl.download">Download this version</span> · busin0_en_v160.xdelta · 910&nbsp;KB</a>
       </details>
 
       <details class="changelog">
@@ -315,6 +321,7 @@
           <li data-i18n="cl.v151.i4">Runs on real PS2 hardware &mdash; the patch modifies the disc data itself, not emulator overlays.</li>
           <li data-i18n="cl.v151.i5">Built with ~13,000 lines of custom reverse-engineering tooling.</li>
         </ul>
+        <a class="cl-dl" href="patch/busin0_en_v151.xdelta" download="busin0_en_v151.xdelta"><span data-i18n="cl.download">Download this version</span> · busin0_en_v151.xdelta · 910&nbsp;KB</a>
       </details>
     </section>
 
