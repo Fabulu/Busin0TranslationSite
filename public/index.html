@@ -158,9 +158,9 @@
       <p class="lede" data-i18n="dl.intro">The translation ships as an xdelta patch you apply to your own legal Japanese disc image. No game data is included.</p>
 
       <div class="download-card">
-        <a class="btn btn-download" href="patch/busin0_en_v180.xdelta" download="busin0_en_v180.xdelta">
+        <a class="btn btn-download" href="patch/busin0_en_v181.xdelta" download="busin0_en_v181.xdelta">
           <span class="btn-download-main" data-i18n="dl.button">Download the patch</span>
-          <span class="btn-download-sub">busin0_en_v180.xdelta · 1006&nbsp;KB · v180 <span data-i18n="dl.beta">beta</span></span>
+          <span class="btn-download-sub">busin0_en_v181.xdelta · 1006&nbsp;KB · v181 <span data-i18n="dl.beta">beta</span></span>
         </a>
         <p class="download-secondary">
           <a href="patch/README.md" data-i18n="dl.readme">Read the README</a>
@@ -182,9 +182,9 @@
           </li>
           <li>
             <span data-i18n="dl.apply_cli">Apply with xdelta3 on the command line:</span>
-            <pre class="code"><code>xdelta3 -d -s "Busin 0 - Wizardry Alternative Neo (Japan) (v2.01).iso" busin0_en_v180.xdelta BUSIN0_EN.iso</code></pre>
+            <pre class="code"><code>xdelta3 -d -s "Busin 0 - Wizardry Alternative Neo (Japan) (v2.01).iso" busin0_en_v181.xdelta BUSIN0_EN.iso</code></pre>
           </li>
-          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v180.xdelta, then Apply.</li>
+          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v181.xdelta, then Apply.</li>
           <li data-i18n="dl.apply_boot">Boot the resulting ISO fresh from the title screen. Do not load an old save state from before patching.</li>
         </ol>
 
@@ -196,8 +196,8 @@
           </div>
           <div class="md5-chip">
             <span class="md5-label" data-i18n="dl.md5_patched">Patched ISO MD5</span>
-            <code class="md5-val">78f6d8a3ad44ff9de718e0b08f24f590</code>
-            <button type="button" class="copy-btn" data-copy="78f6d8a3ad44ff9de718e0b08f24f590" data-i18n-aria="dl.copy_aria" aria-label="Copy patched MD5">⧉</button>
+            <code class="md5-val">e890be7f0d69b388815aaa45d3fb619a</code>
+            <button type="button" class="copy-btn" data-copy="e890be7f0d69b388815aaa45d3fb619a" data-i18n-aria="dl.copy_aria" aria-label="Copy patched MD5">⧉</button>
           </div>
         </div>
       </div>
@@ -211,6 +211,21 @@
       <p class="lede" data-i18n="cl.intro">What changed in each release. Expand a version for the details.</p>
 
       <details class="changelog" open>
+        <summary>
+          <span class="cl-version">v181</span>
+          <span class="cl-date" data-i18n="cl.v181.date">July 2026</span>
+          <span class="cl-sub" data-i18n="cl.v181.sub">Consistency polish: trait names now match everywhere, MacBain unified &mdash; same game code as v180, plus heavy build-safety armor.</span>
+        </summary>
+        <ul class="cl-list" role="list">
+          <li data-i18n="cl.v181.i1"><strong>Two different personality traits were both called &ldquo;Narcissist.&rdquo;</strong> The self-centered one is now &ldquo;Selfish&rdquo; (the vain one keeps Narcissist).</li>
+          <li data-i18n="cl.v181.i2">The library's personality pages now use the same trait names as character creation &mdash; Superstitious, Selfish and Bold were still shown there under their old pre-v168 names (Sensitive, Masochist, Simple).</li>
+          <li data-i18n="cl.v181.i3">&ldquo;Mac Bain&rdquo; is now spelled &ldquo;MacBain&rdquo; everywhere.</li>
+          <li data-i18n="cl.v181.i4">Under the hood: the battle-memory safety rule and the whole build pipeline gained hard regression gates. The game code is byte-identical to v180 &mdash; if v180 played fine for you, v181 plays the same, just with the text fixes.</li>
+        </ul>
+        <a class="cl-dl" href="patch/busin0_en_v181.xdelta" download="busin0_en_v181.xdelta"><span data-i18n="cl.download">Download this version</span> · busin0_en_v181.xdelta · 1006&nbsp;KB</a>
+      </details>
+
+      <details class="changelog">
         <summary>
           <span class="cl-version">v180</span>
           <span class="cl-date" data-i18n="cl.v180.date">July 2026</span>

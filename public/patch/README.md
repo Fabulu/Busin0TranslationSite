@@ -19,12 +19,12 @@ An unofficial English fan translation of **Busin 0: Wizardry Alternative Neo** (
 
 CLI:
 ```
-xdelta3 -d -s "Busin 0 - Wizardry Alternative Neo (Japan) (v2.01).iso" busin0_en_v180.xdelta BUSIN0_EN.iso
+xdelta3 -d -s "Busin 0 - Wizardry Alternative Neo (Japan) (v2.01).iso" busin0_en_v181.xdelta BUSIN0_EN.iso
 ```
-GUI ([Delta Patcher](https://github.com/marco-calautti/DeltaPatcher)): Original file = your JP ISO, Patch = `busin0_en_v180.xdelta`, then Apply.
+GUI ([Delta Patcher](https://github.com/marco-calautti/DeltaPatcher)): Original file = your JP ISO, Patch = `busin0_en_v181.xdelta`, then Apply.
 
 **Verify your patched output** (optional but recommended) — the resulting ISO MD5 should be:
-`78f6d8a3ad44ff9de718e0b08f24f590`. If it matches, the patch applied perfectly.
+`e890be7f0d69b388815aaa45d3fb619a`. If it matches, the patch applied perfectly.
 
 Boot the resulting `BUSIN0_EN.iso`:
 - **PCSX2:** File → Boot ISO. **Boot fresh from the title screen** — do NOT load an old save state from before patching (save states embed the old game data and will show stale/Japanese content regardless of the ISO).
@@ -40,6 +40,7 @@ Boot the resulting `BUSIN0_EN.iso`:
 
 - **Deep / late content is largely UNTESTED.** Expect bugs past the early dungeon — that's what this beta is for.
 - **Battle was recently fixed** (an "empty arena / enemies never appear / camera pans forever" bug). If you hit a fight like that, it's a regression — **please send a save** (see below).
+- **Fixed in v181:** duplicate “Narcissist” trait resolved (self-centered one = “Selfish”), library personality pages renamed to match character creation (Superstitious/Selfish/Bold), “MacBain” spelling unified. Game code identical to v180.
 - **Fixed in v180:** the empty-battle softlock is fixed for real this time — the translation font data that could stall the monster loader now lives safely inside the executable, and battle memory ships untouched (verified in play, including the harpy fight). Character creation is back to full polish: correct letter spacing, correct gender symbols, and the white description banner restored. The item-name capsule is a third wider (not yet eyeballed in-game — report oddities). v173's earlier fixes (choices, dungeon signs, honesty-box shop, name fixes) are all included.
 - **Likely still Japanese or unverified:** equipment **type icons** (weapon/armor category labels), the **credits / staff roll** (probably a video stream), some **late-game/ending text fit**. Reports welcome.
 - **Minor cosmetic:** the **L1/R1** bottom-bar hints and a few late-game screens are still unverified; some NPC nameplates and library entries remain Japanese (queued for the next update).
@@ -58,7 +59,7 @@ The single most useful thing you can send is **a save I can reproduce from.**
 1. A **save state (or memory-card save) near that screen** + a **screenshot** + **which screen/menu** it is.
 
 **Always include:**
-- The **patch version** (v180 beta)
+- The **patch version** (v181 beta)
 - **Emulator + version** (or "real PS2"), and your **PCSX2 renderer** (Hardware vs Software) if it's a graphics glitch
 - Where to send: **[ YOUR CONTACT / SUBREDDIT / DISCORD / EMAIL HERE ]**
 
