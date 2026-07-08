@@ -158,9 +158,9 @@
       <p class="lede" data-i18n="dl.intro">The translation ships as an xdelta patch you apply to your own legal Japanese disc image. No game data is included.</p>
 
       <div class="download-card">
-        <a class="btn btn-download" href="patch/busin0_en_v173.xdelta" download="busin0_en_v173.xdelta">
+        <a class="btn btn-download" href="patch/busin0_en_v180.xdelta" download="busin0_en_v180.xdelta">
           <span class="btn-download-main" data-i18n="dl.button">Download the patch</span>
-          <span class="btn-download-sub">busin0_en_v173.xdelta · 1005&nbsp;KB · v173 <span data-i18n="dl.beta">beta</span></span>
+          <span class="btn-download-sub">busin0_en_v180.xdelta · 1006&nbsp;KB · v180 <span data-i18n="dl.beta">beta</span></span>
         </a>
         <p class="download-secondary">
           <a href="patch/README.md" data-i18n="dl.readme">Read the README</a>
@@ -182,9 +182,9 @@
           </li>
           <li>
             <span data-i18n="dl.apply_cli">Apply with xdelta3 on the command line:</span>
-            <pre class="code"><code>xdelta3 -d -s "Busin 0 - Wizardry Alternative Neo (Japan) (v2.01).iso" busin0_en_v173.xdelta BUSIN0_EN.iso</code></pre>
+            <pre class="code"><code>xdelta3 -d -s "Busin 0 - Wizardry Alternative Neo (Japan) (v2.01).iso" busin0_en_v180.xdelta BUSIN0_EN.iso</code></pre>
           </li>
-          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v173.xdelta, then Apply.</li>
+          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v180.xdelta, then Apply.</li>
           <li data-i18n="dl.apply_boot">Boot the resulting ISO fresh from the title screen. Do not load an old save state from before patching.</li>
         </ol>
 
@@ -196,8 +196,8 @@
           </div>
           <div class="md5-chip">
             <span class="md5-label" data-i18n="dl.md5_patched">Patched ISO MD5</span>
-            <code class="md5-val">c51da0599614c2d09552ed704f7a3bae</code>
-            <button type="button" class="copy-btn" data-copy="67e8b1bb0ac07aa18f174f73a31154a6" data-i18n-aria="dl.copy_aria" aria-label="Copy patched MD5">⧉</button>
+            <code class="md5-val">78f6d8a3ad44ff9de718e0b08f24f590</code>
+            <button type="button" class="copy-btn" data-copy="78f6d8a3ad44ff9de718e0b08f24f590" data-i18n-aria="dl.copy_aria" aria-label="Copy patched MD5">⧉</button>
           </div>
         </div>
       </div>
@@ -211,6 +211,34 @@
       <p class="lede" data-i18n="cl.intro">What changed in each release. Expand a version for the details.</p>
 
       <details class="changelog" open>
+        <summary>
+          <span class="cl-version">v180</span>
+          <span class="cl-date" data-i18n="cl.v180.date">July 2026</span>
+          <span class="cl-sub" data-i18n="cl.v180.sub">The real battle fix: empty battles are gone for good &mdash; plus restored character-creation polish and a wider item-name capsule.</span>
+        </summary>
+        <ul class="cl-list" role="list">
+          <li data-i18n="cl.v180.i1"><strong>The empty-battle softlock is actually fixed this time.</strong> The cause was translation font data sitting in the game's battle memory, where it could intermittently stall the monster loader. That data now lives in a safe spot inside the executable (no header tricks, so unlike v174 the console loader has nothing to reject), and battle memory ships untouched. Verified in play &mdash; including the harpy fight that kept reproducing it. Thanks to SirBewm for the save states that cracked it.</li>
+          <li data-i18n="cl.v180.i2"><strong>Character creation restored to full polish:</strong> the correct letter spacing is back (v173 had to sacrifice it), the &#9794;/&#9792; gender symbols draw correctly, and the white description banner at the bottom of the screen &mdash; missing since v173 &mdash; is back.</li>
+          <li data-i18n="cl.v180.i3">The item-name capsule (shop &amp; synthesis lists) is now a third wider so long English names fit better. This one hasn't been eyeballed in-game yet &mdash; if it looks odd, please report it.</li>
+          <li data-i18n="cl.v180.i4">Under the hood: new regression tests pin the banner, battle memory, and capsule data so none of this can silently break again. (v175&ndash;v179 were internal iterations.)</li>
+        </ul>
+        <a class="cl-dl" href="patch/busin0_en_v180.xdelta" download="busin0_en_v180.xdelta"><span data-i18n="cl.download">Download this version</span> · busin0_en_v180.xdelta · 1006&nbsp;KB</a>
+      </details>
+
+      <details class="changelog">
+        <summary>
+          <span class="cl-version">v174</span>
+          <span class="cl-exp" data-i18n="cl.exp">experimental</span>
+          <span class="cl-date" data-i18n="cl.v174.date">July 2026</span>
+          <span class="cl-sub" data-i18n="cl.v174.sub">&#9888; PULLED &mdash; this build boots to the PS2 BIOS and does not run. Use an earlier patch below.</span>
+        </summary>
+        <ul class="cl-list" role="list">
+          <li data-i18n="cl.v174.i1"><strong>Do NOT use this build.</strong> It drops you into the PS2 BIOS instead of loading the game &mdash; the console loader rejected the modified executable. A corrected fix is in progress and will be re-tested before it goes back up. Please use an earlier patch below in the meantime.</li>
+          <li data-i18n="cl.v174.i2">Sorry for the churn &mdash; thanks to everyone who reported it.</li>
+        </ul>
+      </details>
+
+      <details class="changelog">
         <summary>
           <span class="cl-version">v173</span>
           <span class="cl-date" data-i18n="cl.v173.date">July 2026</span>
