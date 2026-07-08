@@ -135,9 +135,9 @@
       "bugs.item_mcard": "An in-game memory-card save near the problem.",
       "bugs.item_repro": "A one-line description of what you did.",
       "bugs.item_shot": "A screenshot for any bad text, formatting or untranslated content.",
-      "bugs.item_version": "The patch version (v173 beta).",
+      "bugs.item_version": "The patch version (v180 beta).",
       "bugs.item_emu": "Your emulator and version (or \"real PS2\"), plus your PCSX2 renderer (Hardware vs Software) for graphics glitches.",
-      "bugs.contact": "Report bugs and reach me in the <a href=\"https://www.reddit.com/r/wizardry/comments/1uiapnh/busin_0_ps2_translation_beta/\" target=\"_blank\" rel=\"noopener\">r/wizardry release thread</a> — just reply there.",
+      "bugs.contact": "The best place for bug reports is <a href=\"https://github.com/Fabulu/Busin0Translation/issues\" target=\"_blank\" rel=\"noopener\">GitHub Issues</a> — you can attach save states and screenshots directly (zip the <code>.p2s</code> first). No GitHub account? Reply in the <a href=\"https://www.reddit.com/r/wizardry/comments/1uiapnh/busin_0_ps2_translation_beta/\" target=\"_blank\" rel=\"noopener\">r/wizardry release thread</a> instead.",
 
       "footer.disclaimer": "Unofficial fan project. Not affiliated with or endorsed by Atlus or RACJIN. You must legally own the original game. No copyrighted game data is distributed — this is a patch you apply to your own disc dump.",
       "footer.source": "Source on GitHub",
@@ -276,9 +276,9 @@
       "bugs.item_mcard": "Einen Memory-Card-Spielstand im Spiel nahe am Problem.",
       "bugs.item_repro": "Eine einzeilige Beschreibung, was du getan hast.",
       "bugs.item_shot": "Einen Screenshot bei fehlerhaftem Text, Formatierung oder unübersetztem Inhalt.",
-      "bugs.item_version": "Die Patch-Version (v173 Beta).",
+      "bugs.item_version": "Die Patch-Version (v180 Beta).",
       "bugs.item_emu": "Deinen Emulator und dessen Version (oder \"echte PS2\") sowie deinen PCSX2-Renderer (Hardware oder Software) bei Grafikfehlern.",
-      "bugs.contact": "Melde Fehler und erreiche mich im <a href=\"https://www.reddit.com/r/wizardry/comments/1uiapnh/busin_0_ps2_translation_beta/\" target=\"_blank\" rel=\"noopener\">r/wizardry-Release-Thread</a> — antworte einfach dort.",
+      "bugs.contact": "Der beste Ort für Fehlerberichte ist <a href=\"https://github.com/Fabulu/Busin0Translation/issues\" target=\"_blank\" rel=\"noopener\">GitHub Issues</a> — Save-States und Screenshots können direkt angehängt werden (die <code>.p2s</code> vorher zippen). Kein GitHub-Konto? Antworte stattdessen im <a href=\"https://www.reddit.com/r/wizardry/comments/1uiapnh/busin_0_ps2_translation_beta/\" target=\"_blank\" rel=\"noopener\">r/wizardry-Release-Thread</a>.",
 
       "footer.disclaimer": "Inoffizielles Fan-Projekt. Nicht mit Atlus oder RACJIN verbunden oder von ihnen unterstützt. Du musst das Originalspiel legal besitzen. Es werden keine urheberrechtlich geschützten Spieldaten verbreitet — dies ist ein Patch, den du auf deinen eigenen Disc-Abzug anwendest.",
       "footer.source": "Quellcode auf GitHub",
