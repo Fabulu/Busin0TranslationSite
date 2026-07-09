@@ -158,9 +158,9 @@
       <p class="lede" data-i18n="dl.intro">The translation ships as an xdelta patch you apply to your own legal Japanese disc image. No game data is included.</p>
 
       <div class="download-card">
-        <a class="btn btn-download" href="patch/busin0_en_v181.xdelta" download="busin0_en_v181.xdelta">
+        <a class="btn btn-download" href="patch/busin0_en_v182.xdelta" download="busin0_en_v182.xdelta">
           <span class="btn-download-main" data-i18n="dl.button">Download the patch</span>
-          <span class="btn-download-sub">busin0_en_v181.xdelta · 1006&nbsp;KB · v181 <span data-i18n="dl.beta">beta</span></span>
+          <span class="btn-download-sub">busin0_en_v182.xdelta · 1050&nbsp;KB · v182 <span data-i18n="dl.beta">beta</span></span>
         </a>
         <p class="download-secondary">
           <a href="patch/README.md" data-i18n="dl.readme">Read the README</a>
@@ -182,9 +182,9 @@
           </li>
           <li>
             <span data-i18n="dl.apply_cli">Apply with xdelta3 on the command line:</span>
-            <pre class="code"><code>xdelta3 -d -s "Busin 0 - Wizardry Alternative Neo (Japan) (v2.01).iso" busin0_en_v181.xdelta BUSIN0_EN.iso</code></pre>
+            <pre class="code"><code>xdelta3 -d -s "Busin 0 - Wizardry Alternative Neo (Japan) (v2.01).iso" busin0_en_v182.xdelta BUSIN0_EN.iso</code></pre>
           </li>
-          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v181.xdelta, then Apply.</li>
+          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v182.xdelta, then Apply.</li>
           <li data-i18n="dl.apply_boot">Boot the resulting ISO fresh from the title screen. Do not load an old save state from before patching.</li>
         </ol>
 
@@ -196,8 +196,8 @@
           </div>
           <div class="md5-chip">
             <span class="md5-label" data-i18n="dl.md5_patched">Patched ISO MD5</span>
-            <code class="md5-val">e890be7f0d69b388815aaa45d3fb619a</code>
-            <button type="button" class="copy-btn" data-copy="e890be7f0d69b388815aaa45d3fb619a" data-i18n-aria="dl.copy_aria" aria-label="Copy patched MD5">⧉</button>
+            <code class="md5-val">cdf272695faf4c8551c65055db7e34eb</code>
+            <button type="button" class="copy-btn" data-copy="cdf272695faf4c8551c65055db7e34eb" data-i18n-aria="dl.copy_aria" aria-label="Copy patched MD5">⧉</button>
           </div>
         </div>
       </div>
@@ -211,6 +211,23 @@
       <p class="lede" data-i18n="cl.intro">What changed in each release. Expand a version for the details.</p>
 
       <details class="changelog" open>
+        <summary>
+          <span class="cl-version">v182</span>
+          <span class="cl-date" data-i18n="cl.v182.date">July 2026</span>
+          <span class="cl-sub" data-i18n="cl.v182.sub">The Language Update: ~1,500 dialogue lines rewritten in full, quest objectives corrected, personality traits fixed &mdash; the deepest text update yet.</span>
+        </summary>
+        <ul class="cl-list" role="list">
+          <li data-i18n="cl.v182.i1"><strong>Story dialogue rebuilt (B4F and deeper):</strong> around 1,500 lines that shipped as telegraphic fragments are now full dialogue &mdash; including the complete final-battle rally speeches. Sourced from the classic fan translation guide, cross-checked line by line.</li>
+          <li data-i18n="cl.v182.i2"><strong>Quest objectives corrected:</strong> several requests pointed at the wrong thing or place &mdash; Gin's quest chain wants a <em>sword</em> (not armor), one request sends you to the <em>tavern</em> (not the Castle), the B10F landmark is a <em>crystal room</em>, and one reward is a Leprechaun <em>mask</em>. If a quest ever felt impossible to parse, this is why.</li>
+          <li data-i18n="cl.v182.i3"><strong>Items sorted out:</strong> a whole accessory category was mislabeled &mdash; rings, talismans and magic stones are now what they say they are; the katana ladder carries its real famous-sword names; &ldquo;Mad King&rdquo; items are no longer &ldquo;Demon King&rdquo;.</li>
+          <li data-i18n="cl.v182.i4"><strong>Personality traits fixed twice over:</strong> a few were mistranslated from the start (the trait called &ldquo;Bold&rdquo; is actually the simple-minded one, now &ldquo;Stupid&rdquo;; &ldquo;Narcissist&rdquo; is now &ldquo;Vain&rdquo;) and ALL trait names now fit the recruitment screen &mdash; no more personalities showing a description with no name.</li>
+          <li data-i18n="cl.v182.i5">Beta-report fixes: the tavern intro no longer spoils a name, the trap-game boxes show the right labels, and the inn greeting lost its stray &ldquo;Waitress:&rdquo; prefix (thanks SirDragoon for the sharp reports). Plus one spelling per name everywhere &mdash; Kunnal, Milly, Romi, Guillaume and friends.</li>
+          <li data-i18n="cl.v182.i6">Under the hood: dozens of new build safeguards; the game code is byte-identical to v180/v181, so stability is unchanged.</li>
+        </ul>
+        <a class="cl-dl" href="patch/busin0_en_v182.xdelta" download="busin0_en_v182.xdelta"><span data-i18n="cl.download">Download this version</span> · busin0_en_v182.xdelta · 1050&nbsp;KB</a>
+      </details>
+
+      <details class="changelog">
         <summary>
           <span class="cl-version">v181</span>
           <span class="cl-date" data-i18n="cl.v181.date">July 2026</span>
