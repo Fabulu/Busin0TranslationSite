@@ -158,9 +158,9 @@
       <p class="lede" data-i18n="dl.intro">The translation ships as an xdelta patch you apply to your own legal Japanese disc image. No game data is included.</p>
 
       <div class="download-card">
-        <a class="btn btn-download" href="patch/busin0_en_v182.xdelta" download="busin0_en_v182.xdelta">
+        <a class="btn btn-download" href="patch/busin0_en_v183.xdelta" download="busin0_en_v183.xdelta">
           <span class="btn-download-main" data-i18n="dl.button">Download the patch</span>
-          <span class="btn-download-sub">busin0_en_v182.xdelta · 1050&nbsp;KB · v182 <span data-i18n="dl.beta">beta</span></span>
+          <span class="btn-download-sub">busin0_en_v183.xdelta · 1047&nbsp;KB · v183 <span data-i18n="dl.beta">beta</span></span>
         </a>
         <p class="download-secondary">
           <a href="patch/README.md" data-i18n="dl.readme">Read the README</a>
@@ -170,7 +170,7 @@
       <!-- Legal ISO callout -->
       <div class="callout" role="note">
         <span class="callout-icon" aria-hidden="true">⚠</span>
-        <p data-i18n="dl.callout">You must supply your own legally-dumped Japanese disc (SLPM-65378, v2.01). No copyrighted game data is distributed.</p>
+        <p data-i18n="dl.callout">You must supply your own legally-dumped Japanese disc (SLPM-65378, v1.03). No copyrighted game data is distributed.</p>
       </div>
 
       <!-- Apply guide -->
@@ -182,9 +182,9 @@
           </li>
           <li>
             <span data-i18n="dl.apply_cli">Apply with xdelta3 on the command line:</span>
-            <pre class="code"><code>xdelta3 -d -s "Busin 0 - Wizardry Alternative Neo (Japan) (v2.01).iso" busin0_en_v182.xdelta BUSIN0_EN.iso</code></pre>
+            <pre class="code"><code>xdelta3 -d -s "Busin 0 (Japan) SLPM-65378.iso" busin0_en_v183.xdelta BUSIN0_EN.iso</code></pre>
           </li>
-          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v182.xdelta, then Apply.</li>
+          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v183.xdelta, then Apply.</li>
           <li data-i18n="dl.apply_boot">Boot the resulting ISO fresh from the title screen. Do not load an old save state from before patching.</li>
         </ol>
 
@@ -196,8 +196,8 @@
           </div>
           <div class="md5-chip">
             <span class="md5-label" data-i18n="dl.md5_patched">Patched ISO MD5</span>
-            <code class="md5-val">cdf272695faf4c8551c65055db7e34eb</code>
-            <button type="button" class="copy-btn" data-copy="cdf272695faf4c8551c65055db7e34eb" data-i18n-aria="dl.copy_aria" aria-label="Copy patched MD5">⧉</button>
+            <code class="md5-val">748f7a5ffa53da5e03679a6cee8fb2ff</code>
+            <button type="button" class="copy-btn" data-copy="748f7a5ffa53da5e03679a6cee8fb2ff" data-i18n-aria="dl.copy_aria" aria-label="Copy patched MD5">⧉</button>
           </div>
         </div>
       </div>
@@ -211,6 +211,22 @@
       <p class="lede" data-i18n="cl.intro">What changed in each release. Expand a version for the details.</p>
 
       <details class="changelog" open>
+        <summary>
+          <span class="cl-version">v183</span>
+          <span class="cl-date" data-i18n="cl.v183.date">July 2026</span>
+          <span class="cl-sub" data-i18n="cl.v183.sub">The dialogue cleanup: speaker names no longer print twice, wrong nameplates fixed, and a script-wide polish pass &mdash; sparked by six sharp beta reports.</span>
+        </summary>
+        <ul class="cl-list" role="list">
+          <li data-i18n="cl.v183.i1"><strong>Speaker names no longer show twice.</strong> The game draws each speaker&rsquo;s name in its own box, but many lines also had the name typed into the dialogue text &mdash; so it appeared twice, or leaked a character&rsquo;s name before the story introduces them. Fixed across the whole script (~600 lines).</li>
+          <li data-i18n="cl.v183.i2"><strong>Wrong nameplates corrected:</strong> some townsfolk shown as &ldquo;Knight&rdquo; are really adventurers; the Alchemy Guild clerk (an elf man) was labelled &ldquo;Pixie&rdquo; and referred to as &ldquo;she&rdquo; &mdash; now &ldquo;Elf Merchant&rdquo; and &ldquo;he&rdquo;.</li>
+          <li data-i18n="cl.v183.i3"><strong>Story accuracy:</strong> a knight no longer says you already found Regina&rsquo;s party when you were only sent to look; Belgrano&rsquo;s title is consistently &ldquo;Commander&rdquo;; and a stray blank first line in dozens of dialogue boxes is gone.</li>
+          <li data-i18n="cl.v183.i4">Polish: ~750 decorative speaker-quotes removed for one consistent voice, and gold amounts now read like &ldquo;500G&rdquo; everywhere. ~1,250 lines improved in total.</li>
+          <li data-i18n="cl.v183.i5">Thanks to SirDragoon for the six reports that started it. Game code is byte-identical to v180&ndash;v182, so stability is unchanged. (Note: this disc is SLPM-65378, software v1.03 &mdash; not the Atlus Best Collection.)</li>
+        </ul>
+        <a class="cl-dl" href="patch/busin0_en_v183.xdelta" download="busin0_en_v183.xdelta"><span data-i18n="cl.download">Download this version</span> &middot; busin0_en_v183.xdelta &middot; 1047&nbsp;KB</a>
+      </details>
+
+      <details class="changelog">
         <summary>
           <span class="cl-version">v182</span>
           <span class="cl-date" data-i18n="cl.v182.date">July 2026</span>
