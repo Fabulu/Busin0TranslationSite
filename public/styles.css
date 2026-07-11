@@ -698,7 +698,7 @@ img { display: block; max-width: 100%; }
 }
 .changelog summary::-webkit-details-marker { display: none; }
 .changelog summary::before {
-  content: "B8";
+  content: "\25B8";
   color: #c5a059;
   margin-right: 0.2rem;
   transition: transform 0.15s ease;
@@ -724,7 +724,7 @@ img { display: block; max-width: 100%; }
 
 
 .cl-dl{display:inline-flex;align-items:center;gap:.45rem;margin-top:.9rem;padding:.42rem .85rem;border:1px solid var(--stone-light);border-radius:var(--radius);color:var(--gold);background:rgba(230,168,41,.06);text-decoration:none;font-family:var(--serif-body);font-size:.92rem;line-height:1;transition:border-color .15s,color .15s,background .15s}
-.cl-dl::before{content:"93";font-weight:700}
+.cl-dl::before{content:"\2193";font-weight:700}
 .cl-dl:hover{border-color:var(--gold);color:var(--gold-bright);background:rgba(230,168,41,.13)}
 
 .cl-exp{display:inline-block;margin-left:.5rem;padding:.08rem .5rem;border:1px solid var(--ember);border-radius:999px;color:var(--ember-bright);background:rgba(255,94,34,.10);font-family:var(--serif-body);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;vertical-align:middle}
