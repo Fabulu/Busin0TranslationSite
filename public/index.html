@@ -158,9 +158,9 @@
       <p class="lede" data-i18n="dl.intro">The translation ships as an xdelta patch you apply to your own legal Japanese disc image. No game data is included.</p>
 
       <div class="download-card">
-        <a class="btn btn-download" href="patch/busin0_en_v184.xdelta" download="busin0_en_v184.xdelta">
+        <a class="btn btn-download" href="patch/busin0_en_v185.xdelta" download="busin0_en_v185.xdelta">
           <span class="btn-download-main" data-i18n="dl.button">Download the patch</span>
-          <span class="btn-download-sub">busin0_en_v184.xdelta · 1047&nbsp;KB · v184 <span data-i18n="dl.beta">beta</span></span>
+          <span class="btn-download-sub">busin0_en_v185.xdelta · 1053&nbsp;KB · v185 <span data-i18n="dl.beta">beta</span></span>
         </a>
         <p class="download-secondary">
           <a href="patch/README.md" data-i18n="dl.readme">Read the README</a>
@@ -182,9 +182,9 @@
           </li>
           <li>
             <span data-i18n="dl.apply_cli">Apply with xdelta3 on the command line:</span>
-            <pre class="code"><code>xdelta3 -d -s "Busin 0 (Japan) SLPM-65378.iso" busin0_en_v184.xdelta BUSIN0_EN.iso</code></pre>
+            <pre class="code"><code>xdelta3 -d -s "Busin 0 (Japan) SLPM-65378.iso" busin0_en_v185.xdelta BUSIN0_EN.iso</code></pre>
           </li>
-          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v184.xdelta, then Apply.</li>
+          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v185.xdelta, then Apply.</li>
           <li data-i18n="dl.apply_boot">Boot the resulting ISO fresh from the title screen. Do not load an old save state from before patching.</li>
         </ol>
 
@@ -196,8 +196,8 @@
           </div>
           <div class="md5-chip">
             <span class="md5-label" data-i18n="dl.md5_patched">Patched ISO MD5</span>
-            <code class="md5-val">023c9b12fb45eda4d56bc1851b2702df</code>
-            <button type="button" class="copy-btn" data-copy="023c9b12fb45eda4d56bc1851b2702df" data-i18n-aria="dl.copy_aria" aria-label="Copy patched MD5">⧉</button>
+            <code class="md5-val">6383c932452d4df95c7dd96c6551c65c</code>
+            <button type="button" class="copy-btn" data-copy="6383c932452d4df95c7dd96c6551c65c" data-i18n-aria="dl.copy_aria" aria-label="Copy patched MD5">⧉</button>
           </div>
         </div>
       </div>
@@ -211,6 +211,22 @@
       <p class="lede" data-i18n="cl.intro">What changed in each release. Expand a version for the details.</p>
 
       <details class="changelog" open>
+        <summary>
+          <span class="cl-version">v185</span>
+          <span class="cl-date" data-i18n="cl.v185.date">July 2026</span>
+          <span class="cl-sub" data-i18n="cl.v185.sub">The temple-drama rewrite and a game-wide medal-shop fix &mdash; including a menu that was translated seven different ways.</span>
+        </summary>
+        <ul class="cl-list" role="list">
+          <li data-i18n="cl.v185.i1"><strong>The Salem Temple resurrection drama, rewritten.</strong> A whole 200+ line questline (Tavern Request #13) that shipped as clipped fragments is now full, flowing dialogue &mdash; the medal ceremony, the Sister-and-priest debate, Fouquet&rsquo;s briefing, the revival performance and both endings. Sourced from the classic fan guide, line by line.</li>
+          <li data-i18n="cl.v185.i2"><strong>The Medal Shop, finally consistent.</strong> The same shop menu appeared in 11 places translated <em>seven different ways</em> because two medal names had never been read correctly. They&rsquo;re now the <strong>Trap Game Medal</strong> and the <strong>Dark Medal</strong> everywhere &mdash; and one option was mislabeled &ldquo;Sell&rdquo; in every version when the shop actually <strong>loans</strong> medals. That gameplay-meaning bug is fixed.</li>
+          <li data-i18n="cl.v185.i3"><strong>One name for the Bar.</strong> The recruitment hall (its sign reads &ldquo;Bar Luna Light&rdquo;) was called &ldquo;Tavern&rdquo; in dozens of lines; it&rsquo;s now &ldquo;Bar&rdquo; throughout, and the shop&rsquo;s own greeting no longer misreads its name as &ldquo;Medal Exchange.&rdquo;</li>
+          <li data-i18n="cl.v185.i4"><strong>Long narration no longer overflows.</strong> A batch of over-long narration boxes were tightened to fit the window, with a new safeguard that stops any future line from spilling past the edge.</li>
+          <li data-i18n="cl.v185.i5">Also: consistent spellings (Gin, Swordsman, Temple), two adventurer roster names restored, and three sub-menus that were stuck in Japanese now read English. Game code is byte-identical to v180&ndash;v184, so stability is unchanged. This disc is SLPM-65378, software v1.03.</li>
+        </ul>
+        <a class="cl-dl" href="patch/busin0_en_v185.xdelta" download="busin0_en_v185.xdelta"><span data-i18n="cl.download">Download this version</span> &middot; busin0_en_v185.xdelta &middot; 1053&nbsp;KB</a>
+      </details>
+
+      <details class="changelog">
         <summary>
           <span class="cl-version">v184</span>
           <span class="cl-date" data-i18n="cl.v184.date">July 2026</span>
