@@ -158,9 +158,9 @@
       <p class="lede" data-i18n="dl.intro">The translation ships as an xdelta patch you apply to your own legal Japanese disc image. No game data is included.</p>
 
       <div class="download-card">
-        <a class="btn btn-download" href="patch/busin0_en_v185.xdelta" download="busin0_en_v185.xdelta">
+        <a class="btn btn-download" href="patch/busin0_en_v186.xdelta" download="busin0_en_v186.xdelta">
           <span class="btn-download-main" data-i18n="dl.button">Download the patch</span>
-          <span class="btn-download-sub">busin0_en_v185.xdelta · 1053&nbsp;KB · v185 <span data-i18n="dl.beta">beta</span></span>
+          <span class="btn-download-sub">busin0_en_v186.xdelta · 1052&nbsp;KB · v186 <span data-i18n="dl.beta">beta</span></span>
         </a>
         <p class="download-secondary">
           <a href="patch/README.md" data-i18n="dl.readme">Read the README</a>
@@ -182,9 +182,9 @@
           </li>
           <li>
             <span data-i18n="dl.apply_cli">Apply with xdelta3 on the command line:</span>
-            <pre class="code"><code>xdelta3 -d -s "Busin 0 (Japan) SLPM-65378.iso" busin0_en_v185.xdelta BUSIN0_EN.iso</code></pre>
+            <pre class="code"><code>xdelta3 -d -s "Busin 0 (Japan) SLPM-65378.iso" busin0_en_v186.xdelta BUSIN0_EN.iso</code></pre>
           </li>
-          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v185.xdelta, then Apply.</li>
+          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v186.xdelta, then Apply.</li>
           <li data-i18n="dl.apply_boot">Boot the resulting ISO fresh from the title screen. Do not load an old save state from before patching.</li>
         </ol>
 
@@ -196,8 +196,8 @@
           </div>
           <div class="md5-chip">
             <span class="md5-label" data-i18n="dl.md5_patched">Patched ISO MD5</span>
-            <code class="md5-val">6383c932452d4df95c7dd96c6551c65c</code>
-            <button type="button" class="copy-btn" data-copy="6383c932452d4df95c7dd96c6551c65c" data-i18n-aria="dl.copy_aria" aria-label="Copy patched MD5">⧉</button>
+            <code class="md5-val">8617ab16f8358ec60c5400a4ffd7487d</code>
+            <button type="button" class="copy-btn" data-copy="8617ab16f8358ec60c5400a4ffd7487d" data-i18n-aria="dl.copy_aria" aria-label="Copy patched MD5">⧉</button>
           </div>
         </div>
       </div>
@@ -211,6 +211,19 @@
       <p class="lede" data-i18n="cl.intro">What changed in each release. Expand a version for the details.</p>
 
       <details class="changelog" open>
+        <summary>
+          <span class="cl-version">v186</span>
+          <span class="cl-date" data-i18n="cl.v186.date">July 2026</span>
+          <span class="cl-sub" data-i18n="cl.v186.sub">A quick correction: overheard conversations now show who speaks first again.</span>
+        </summary>
+        <ul class="cl-list" role="list">
+          <li data-i18n="cl.v186.i1"><strong>Overheard speakers are named again.</strong> The earlier cleanup that stopped speaker names printing twice was too eager on <em>overheard</em> conversations &mdash; the ones with no name box, like the girls chatting by the railing, the alchemy-guild pair, or the temple crowd. There, the labels are the only way to tell who&rsquo;s talking, and the <em>first</em> speaker&rsquo;s label had been dropped. It&rsquo;s restored across 49 of these exchanges, so you can once again tell who opens.</li>
+          <li data-i18n="cl.v186.i2">Thanks to SirBewm for the report and the clear screenshots. Game code is byte-identical to v180&ndash;v185, so stability is unchanged. This disc is SLPM-65378, software v1.03.</li>
+        </ul>
+        <a class="cl-dl" href="patch/busin0_en_v186.xdelta" download="busin0_en_v186.xdelta"><span data-i18n="cl.download">Download this version</span> &middot; busin0_en_v186.xdelta &middot; 1052&nbsp;KB</a>
+      </details>
+
+      <details class="changelog">
         <summary>
           <span class="cl-version">v185</span>
           <span class="cl-date" data-i18n="cl.v185.date">July 2026</span>
