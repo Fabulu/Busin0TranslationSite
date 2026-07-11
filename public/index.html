@@ -158,9 +158,9 @@
       <p class="lede" data-i18n="dl.intro">The translation ships as an xdelta patch you apply to your own legal Japanese disc image. No game data is included.</p>
 
       <div class="download-card">
-        <a class="btn btn-download" href="patch/busin0_en_v183.xdelta" download="busin0_en_v183.xdelta">
+        <a class="btn btn-download" href="patch/busin0_en_v184.xdelta" download="busin0_en_v184.xdelta">
           <span class="btn-download-main" data-i18n="dl.button">Download the patch</span>
-          <span class="btn-download-sub">busin0_en_v183.xdelta · 1047&nbsp;KB · v183 <span data-i18n="dl.beta">beta</span></span>
+          <span class="btn-download-sub">busin0_en_v184.xdelta · 1047&nbsp;KB · v184 <span data-i18n="dl.beta">beta</span></span>
         </a>
         <p class="download-secondary">
           <a href="patch/README.md" data-i18n="dl.readme">Read the README</a>
@@ -182,9 +182,9 @@
           </li>
           <li>
             <span data-i18n="dl.apply_cli">Apply with xdelta3 on the command line:</span>
-            <pre class="code"><code>xdelta3 -d -s "Busin 0 (Japan) SLPM-65378.iso" busin0_en_v183.xdelta BUSIN0_EN.iso</code></pre>
+            <pre class="code"><code>xdelta3 -d -s "Busin 0 (Japan) SLPM-65378.iso" busin0_en_v184.xdelta BUSIN0_EN.iso</code></pre>
           </li>
-          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v183.xdelta, then Apply.</li>
+          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v184.xdelta, then Apply.</li>
           <li data-i18n="dl.apply_boot">Boot the resulting ISO fresh from the title screen. Do not load an old save state from before patching.</li>
         </ol>
 
@@ -196,8 +196,8 @@
           </div>
           <div class="md5-chip">
             <span class="md5-label" data-i18n="dl.md5_patched">Patched ISO MD5</span>
-            <code class="md5-val">748f7a5ffa53da5e03679a6cee8fb2ff</code>
-            <button type="button" class="copy-btn" data-copy="748f7a5ffa53da5e03679a6cee8fb2ff" data-i18n-aria="dl.copy_aria" aria-label="Copy patched MD5">⧉</button>
+            <code class="md5-val">023c9b12fb45eda4d56bc1851b2702df</code>
+            <button type="button" class="copy-btn" data-copy="023c9b12fb45eda4d56bc1851b2702df" data-i18n-aria="dl.copy_aria" aria-label="Copy patched MD5">⧉</button>
           </div>
         </div>
       </div>
@@ -211,6 +211,22 @@
       <p class="lede" data-i18n="cl.intro">What changed in each release. Expand a version for the details.</p>
 
       <details class="changelog" open>
+        <summary>
+          <span class="cl-version">v184</span>
+          <span class="cl-date" data-i18n="cl.v184.date">July 2026</span>
+          <span class="cl-sub" data-i18n="cl.v184.sub">A consistency pass: one spelling per name, more mislabeled nameplates fixed by reading the actual dialogue, and a clearer Alchemy screen.</span>
+        </summary>
+        <ul class="cl-list" role="list">
+          <li data-i18n="cl.v184.i1"><strong>One spelling per name.</strong> Characters and spells that showed up under two or three spellings now use a single consistent name everywhere &mdash; Uli, Weil and Langobalt among the people, and the Kreta / Zateal spell families among the magic.</li>
+          <li data-i18n="cl.v184.i2"><strong>More nameplates corrected by dialogue, not guesswork.</strong> A few more townsfolk shown as &ldquo;Knight&rdquo; are actually adventurers &mdash; decided by what they say in the scene, while real knights and named commanders were left untouched.</li>
+          <li data-i18n="cl.v184.i3"><strong>Clearer Alchemy Guild.</strong> The synthesis screen said you craft from &ldquo;medals&rdquo; &mdash; it actually means the materials you gather, so the crafting mechanic now reads correctly. The cursed-item message says an item is cursed rather than merely &ldquo;equipped&rdquo;.</li>
+          <li data-i18n="cl.v184.i4"><strong>Small story fixes.</strong> A woman shown only as &ldquo;Female:&rdquo; now carries her name once the scene reveals it (Aoi); a temple figure&rsquo;s name is spelled Turgot; and a few remaining lines that printed a speaker&rsquo;s name twice were cleaned up.</li>
+          <li data-i18n="cl.v184.i5">Game code is byte-identical to v180&ndash;v183, so stability is unchanged. This disc is SLPM-65378, software v1.03 &mdash; not the Atlus Best Collection.</li>
+        </ul>
+        <a class="cl-dl" href="patch/busin0_en_v184.xdelta" download="busin0_en_v184.xdelta"><span data-i18n="cl.download">Download this version</span> &middot; busin0_en_v184.xdelta &middot; 1047&nbsp;KB</a>
+      </details>
+
+      <details class="changelog">
         <summary>
           <span class="cl-version">v183</span>
           <span class="cl-date" data-i18n="cl.v183.date">July 2026</span>
