@@ -19,12 +19,12 @@ An unofficial English fan translation of **Busin 0: Wizardry Alternative Neo** (
 
 CLI:
 ```
-xdelta3 -d -s "Busin 0 - Wizardry Alternative Neo (Japan) (v2.01).iso" busin0_en_v188.xdelta BUSIN0_EN.iso
+xdelta3 -d -s "Busin 0 - Wizardry Alternative Neo (Japan) (v2.01).iso" busin0_en_v189.xdelta BUSIN0_EN.iso
 ```
-GUI ([Delta Patcher](https://github.com/marco-calautti/DeltaPatcher)): Original file = your JP ISO, Patch = `busin0_en_v188.xdelta`, then Apply.
+GUI ([Delta Patcher](https://github.com/marco-calautti/DeltaPatcher)): Original file = your JP ISO, Patch = `busin0_en_v189.xdelta`, then Apply.
 
 **Verify your patched output** (optional but recommended) — the resulting ISO MD5 should be:
-`748f7a5ffa53da5e03679a6cee8fb2ff`. If it matches, the patch applied perfectly.
+`62c687c754cbd8419a8d8287dbd4d4ad`. If it matches, the patch applied perfectly.
 
 Boot the resulting `BUSIN0_EN.iso`:
 - **PCSX2:** File → Boot ISO. **Boot fresh from the title screen** — do NOT load an old save state from before patching (save states embed the old game data and will show stale/Japanese content regardless of the ISO).
