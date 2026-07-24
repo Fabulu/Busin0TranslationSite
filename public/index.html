@@ -158,9 +158,9 @@
       <p class="lede" data-i18n="dl.intro">The translation ships as an xdelta patch you apply to your own legal Japanese disc image. No game data is included.</p>
 
       <div class="download-card">
-        <a class="btn btn-download" href="patch/busin0_en_v191.xdelta" download="busin0_en_v191.xdelta">
+        <a class="btn btn-download" href="patch/busin0_en_v192.xdelta" download="busin0_en_v192.xdelta">
           <span class="btn-download-main" data-i18n="dl.button">Download the patch</span>
-          <span class="btn-download-sub">busin0_en_v191.xdelta · 1054&nbsp;KB · v191 <span data-i18n="dl.beta">beta</span></span>
+          <span class="btn-download-sub">busin0_en_v192.xdelta · 1054&nbsp;KB · v192 <span data-i18n="dl.beta">beta</span></span>
         </a>
         <p class="download-secondary">
           <a href="patch/README.md" data-i18n="dl.readme">Read the README</a>
@@ -182,9 +182,9 @@
           </li>
           <li>
             <span data-i18n="dl.apply_cli">Apply with xdelta3 on the command line:</span>
-            <pre class="code"><code>xdelta3 -d -s "Busin 0 (Japan) SLPM-65378.iso" busin0_en_v191.xdelta BUSIN0_EN.iso</code></pre>
+            <pre class="code"><code>xdelta3 -d -s "Busin 0 (Japan) SLPM-65378.iso" busin0_en_v192.xdelta BUSIN0_EN.iso</code></pre>
           </li>
-          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v191.xdelta, then Apply.</li>
+          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v192.xdelta, then Apply.</li>
           <li data-i18n="dl.apply_boot">Boot the resulting ISO fresh from the title screen. Do not load an old save state from before patching.</li>
         </ol>
 
@@ -211,6 +211,20 @@
       <p class="lede" data-i18n="cl.intro">What changed in each release. Expand a version for the details.</p>
 
       <details class="changelog" open>
+        <summary>
+          <span class="cl-version">v192</span>
+          <span class="cl-date" data-i18n="cl.v192.date">July 2026</span>
+          <span class="cl-sub" data-i18n="cl.v192.sub">A wave of wording fixes &mdash; mistranslated spell and item names, a Sell/Buy swap, and several dialogue corrections.</span>
+        </summary>
+        <ul class="cl-list" role="list">
+          <li data-i18n="cl.v192.i1"><strong>Spell and item names fixed.</strong> The warp-home spell now reads &ldquo;Leap&rdquo; and the trap-disarm spell &ldquo;Repeal&rdquo; &mdash; both had been left as the untranslated &ldquo;Ripu.&rdquo; The Spleem and Salome stone descriptions now correctly say they hit an enemy <em>group</em> (not a single target). And the whole Kreta Stone quest calls the item a &ldquo;Stone&rdquo; instead of a &ldquo;Sword&rdquo; &mdash; a glyph mix-up that had crept into 17 lines.</li>
+          <li data-i18n="cl.v192.i2"><strong>More dialogue corrections.</strong> Lang&rsquo;s lake-quest item is now &ldquo;Medicine&rdquo; (fitting the doctor) instead of &ldquo;Barrier&rdquo;/&ldquo;Potion.&rdquo; The Vigger shop storage menu now says &ldquo;Sell&rdquo; where it had mistakenly said &ldquo;Buy.&rdquo; A B1F item hidden in a stash of barrels no longer says &ldquo;stairs,&rdquo; and the wounded-fighter scene now reads &ldquo;we were ambushed&rdquo; while crossing the bridge (it had said &ldquo;you&rdquo; / &ldquo;corridor&rdquo;).</li>
+          <li data-i18n="cl.v192.i3">Huge thanks to SirBewm and ferrary-neto for the detailed reports and screenshots &mdash; every one was reproduced and checked against the Japanese. Game code is byte-identical to v191, so stability is unchanged. This disc is SLPM-65378, software v1.03.</li>
+        </ul>
+        <a class="cl-dl" href="patch/busin0_en_v192.xdelta" download="busin0_en_v192.xdelta"><span data-i18n="cl.download">Download this version</span> &middot; busin0_en_v192.xdelta &middot; 1054&nbsp;KB</a>
+      </details>
+
+      <details class="changelog">
         <summary>
           <span class="cl-version">v191</span>
           <span class="cl-date" data-i18n="cl.v191.date">July 2026</span>
