@@ -158,9 +158,9 @@
       <p class="lede" data-i18n="dl.intro">The translation ships as an xdelta patch you apply to your own legal Japanese disc image. No game data is included.</p>
 
       <div class="download-card">
-        <a class="btn btn-download" href="patch/busin0_en_v195.xdelta" download="busin0_en_v195.xdelta">
+        <a class="btn btn-download" href="patch/busin0_en_v196.xdelta" download="busin0_en_v196.xdelta">
           <span class="btn-download-main" data-i18n="dl.button">Download the patch</span>
-          <span class="btn-download-sub">busin0_en_v195.xdelta · 1054&nbsp;KB · v195 <span data-i18n="dl.beta">beta</span></span>
+          <span class="btn-download-sub">busin0_en_v196.xdelta · 1054&nbsp;KB · v196 <span data-i18n="dl.beta">beta</span></span>
         </a>
         <p class="download-secondary">
           <a href="patch/README.md" data-i18n="dl.readme">Read the README</a>
@@ -182,9 +182,9 @@
           </li>
           <li>
             <span data-i18n="dl.apply_cli">Apply with xdelta3 on the command line:</span>
-            <pre class="code"><code>xdelta3 -d -s "Busin 0 (Japan) SLPM-65378.iso" busin0_en_v195.xdelta BUSIN0_EN.iso</code></pre>
+            <pre class="code"><code>xdelta3 -d -s "Busin 0 (Japan) SLPM-65378.iso" busin0_en_v196.xdelta BUSIN0_EN.iso</code></pre>
           </li>
-          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v195.xdelta, then Apply.</li>
+          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v196.xdelta, then Apply.</li>
           <li data-i18n="dl.apply_boot">Boot the resulting ISO fresh from the title screen. Do not load an old save state from before patching.</li>
         </ol>
 
@@ -211,6 +211,20 @@
       <p class="lede" data-i18n="cl.intro">What changed in each release. Expand a version for the details.</p>
 
       <details class="changelog" open>
+        <summary>
+          <span class="cl-version">v196</span>
+          <span class="cl-date" data-i18n="cl.v196.date">July 2026</span>
+          <span class="cl-sub" data-i18n="cl.v196.sub">A mislabeled reward item, the resurrection-ritual choices, and a cryptic shop-order label.</span>
+        </summary>
+        <ul class="cl-list" role="list">
+          <li data-i18n="cl.v196.i1"><strong>The Virgo &amp; Casta reward names the right item.</strong> Picking the reward at the end of that escort quest offered an &ldquo;Ogre Armor&rdquo; that is really the Spirit Sword &mdash; the name had been mis-read from the game&rsquo;s own scrambled text. Both the choice menu and the &ldquo;you got it!&rdquo; message now say Spirit Sword. (As always, the item you received was correct; only the displayed name was wrong.)</li>
+          <li data-i18n="cl.v196.i2"><strong>The resurrection ritual&rsquo;s options make sense now.</strong> During the Salem quest, when the priest asks you to place your fallen leader on the bier, the three choices were mislabeled and out of order &mdash; and read as though you were lying down yourself. They now correctly read: sit the leader on the bed, lay the leader on the bed, or put the leader beneath it, matching what each choice actually does.</li>
+          <li data-i18n="cl.v196.i3"><strong>A cryptic guild-order label is clearer.</strong> On Vigger&rsquo;s order board, an order shown as &ldquo;RcvEq&rdquo; now reads &ldquo;Recov&rdquo; (short for Recovery Equipment; the slot only fits five letters). Still under investigation: the &ldquo;0123456789&rdquo; placeholder and the missing gold amount some of you saw in the Salem quest &mdash; those are a number-substitution quirk in the game&rsquo;s own text engine, and we&rsquo;re using your save states to trace it. Thanks to ferrary-neto for all three reports and the save files. Game code is byte-identical to v189&ndash;v195, so stability is unchanged. This disc is SLPM-65378, software v1.03.</li>
+        </ul>
+        <a class="cl-dl" href="patch/busin0_en_v196.xdelta" download="busin0_en_v196.xdelta"><span data-i18n="cl.download">Download this version</span> &middot; busin0_en_v196.xdelta &middot; 1054&nbsp;KB</a>
+      </details>
+
+      <details class="changelog">
         <summary>
           <span class="cl-version">v195</span>
           <span class="cl-date" data-i18n="cl.v195.date">July 2026</span>
