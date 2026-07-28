@@ -19,12 +19,12 @@ An unofficial English fan translation of **Busin 0: Wizardry Alternative Neo** (
 
 CLI:
 ```
-xdelta3 -d -s "Busin 0 - Wizardry Alternative Neo (Japan) (v2.01).iso" busin0_en_v198.xdelta BUSIN0_EN.iso
+xdelta3 -d -s "Busin 0 - Wizardry Alternative Neo (Japan) (v2.01).iso" busin0_en_v199.xdelta BUSIN0_EN.iso
 ```
-GUI ([Delta Patcher](https://github.com/marco-calautti/DeltaPatcher)): Original file = your JP ISO, Patch = `busin0_en_v198.xdelta`, then Apply.
+GUI ([Delta Patcher](https://github.com/marco-calautti/DeltaPatcher)): Original file = your JP ISO, Patch = `busin0_en_v199.xdelta`, then Apply.
 
 **Verify your patched output** (optional but recommended) — the resulting ISO MD5 should be:
-`e50b28ede66698e03f81605c80ae59db`. If it matches, the patch applied perfectly.
+`af85f538fcb2c6a40946936734d6f180`. If it matches, the patch applied perfectly.
 
 Boot the resulting `BUSIN0_EN.iso`:
 - **PCSX2:** File → Boot ISO. **Boot fresh from the title screen** — do NOT load an old save state from before patching (save states embed the old game data and will show stale/Japanese content regardless of the ISO).
@@ -61,7 +61,7 @@ The single most useful thing you can send is **a save I can reproduce from.**
 1. A **save state (or memory-card save) near that screen** + a **screenshot** + **which screen/menu** it is.
 
 **Always include:**
-- The **patch version** (v198 beta)
+- The **patch version** (v199 beta)
 - **Emulator + version** (or "real PS2"), and your **PCSX2 renderer** (Hardware vs Software) if it's a graphics glitch
 - Where to send: **[ YOUR CONTACT / SUBREDDIT / DISCORD / EMAIL HERE ]**
 
