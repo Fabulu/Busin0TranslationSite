@@ -70,7 +70,7 @@
     <section id="about" class="section reveal" aria-labelledby="about-title">
       <div class="divider" aria-hidden="true"><span>✦</span></div>
       <h2 id="about-title" class="section-title" data-i18n="about.title">About the project</h2>
-      <p class="lede" data-i18n="about.intro">Busin 0 is a 70+ hour Wizardry-style first-person dungeon crawler that never left Japan. This project brings it into English by patching the actual disc data, so it runs on real PS2 hardware - not just emulators.</p>
+      <p class="lede" data-i18n="about.intro">Busin 0 is a 70+ hour Wizardry-style first-person dungeon crawler that never left Japan. This project brings it into English by patching the actual disc data, so it runs on real PS2 hardware, not just emulators.</p>
 
       <ul class="features" role="list">
         <li class="feature reveal">
@@ -81,7 +81,7 @@
         <li class="feature reveal">
           <span class="feature-icon" aria-hidden="true">♜</span>
           <h3 data-i18n="feat.hardware.title">Real PS2 compatible</h3>
-          <p data-i18n="feat.hardware.body">The patch modifies the real disc data - fonts, scripts, menus - so it works on hardware, not just emulator overlays.</p>
+          <p data-i18n="feat.hardware.body">The patch modifies the real disc data itself, the fonts, scripts and menus, so it works on hardware rather than as an emulator overlay.</p>
         </li>
         <li class="feature reveal">
           <span class="feature-icon" aria-hidden="true">✍</span>
@@ -122,7 +122,7 @@
           <button type="button" class="shot-btn" data-index="1">
             <img src="img/chargen-race.png" width="640" height="480" loading="lazy" alt="Character creation: a Select a race menu listing Human, Elf, Gnome, Dwarf and Hobbit beside a hero portrait." />
           </button>
-          <span class="shot-cap" data-i18n="cap.chargen_race">Character creation - choosing a race.</span>
+          <span class="shot-cap" data-i18n="cap.chargen_race">Choosing a race in character creation.</span>
         </li>
         <li class="shot reveal">
           <button type="button" class="shot-btn" data-index="2">
@@ -214,11 +214,11 @@
         <summary>
           <span class="cl-version">v202</span>
           <span class="cl-date" data-i18n="cl.v202.date">August 2026</span>
-          <span class="cl-sub" data-i18n="cl.v202.sub">The head-start bonus for owning the previous game now works with its US release - Wizardry: Tale of the Forsaken Land.</span>
+          <span class="cl-sub" data-i18n="cl.v202.sub">The new-game bonus for owning the previous game now works with its US release, Wizardry: Tale of the Forsaken Land.</span>
         </summary>
         <ul class="cl-list" role="list">
-          <li data-i18n="cl.v202.i1"><strong>The prequel-save bonus now recognizes the US previous game.</strong> Starting a new game with a save from the previous title on your memory card gives a small head start - extra character-creation points, slightly better starting equipment, and pre-made companions renamed after that game&rsquo;s cast. Busin 0 only ever looked for a save from the Japanese predecessor; it now looks for the North American release, Wizardry: Tale of the Forsaken Land (Atlus, 2001 - disc serial SLUS-20259), which is what an English-patch player is far more likely to own. Keep a memory-card save from that US game in your console and boot Busin 0 to receive the bonus - booting the US game once and saving is enough. Boot-confirmed on a real save.</li>
-          <li data-i18n="cl.v202.i2"><strong>One note if you have the Japanese predecessor.</strong> The check was swapped to the US game, not added alongside it, so a save from the Japanese BUSIN ~Wizardry Alternative~ (SLPM-62098) is no longer detected. This is the first change to the game&rsquo;s executable since v180 - a single memory-card directory name - so stability is unchanged. This disc is SLPM-65378, software v1.03.</li>
+          <li data-i18n="cl.v202.i1">Starting a new game while a save from the previous title sits on your memory card gives you a small head start: extra points at character creation, slightly better starting gear, and pre-made companions renamed after that game&rsquo;s cast. Until now, Busin 0 only looked for a save from the Japanese original. It now looks for the North American release instead, Wizardry: Tale of the Forsaken Land (Atlus, 2001, disc serial SLUS-20259), which is the version an English-patch player is far more likely to own. Just keep a save from that US game on a memory card in your console and boot Busin 0; booting the US game once and saving is enough. Confirmed working on a real save.</li>
+          <li data-i18n="cl.v202.i2">A quick note if you own the Japanese original: the check was switched over to the US game rather than added on top of it, so a save from the Japanese BUSIN ~Wizardry Alternative~ (SLPM-62098) no longer counts. This is the first change to the game&rsquo;s executable since v180, and it is just a single memory-card directory name, so stability is unchanged. This disc is SLPM-65378, software v1.03.</li>
         </ul>
         <a class="cl-dl" href="patch/busin0_en_v202.xdelta" download="busin0_en_v202.xdelta"><span data-i18n="cl.download">Download this version</span> &middot; busin0_en_v202.xdelta &middot; 1054&nbsp;KB</a>
       </details>
@@ -661,10 +661,10 @@
     <section id="bugs" class="section reveal" aria-labelledby="bugs-title">
       <div class="divider" aria-hidden="true"><span>✦</span></div>
       <h2 id="bugs-title" class="section-title" data-i18n="bugs.title">Report bugs</h2>
-      <p class="lede" data-i18n="bugs.intro">This is a public beta - bug reports are the whole point. Deep and late-game content is largely untested.</p>
+      <p class="lede" data-i18n="bugs.intro">This is a public beta, and bug reports are the whole point. Deep and late-game content is largely untested.</p>
       <p class="bugs-lead" data-i18n="bugs.what">When something breaks, the most useful thing you can send is a save to reproduce from. Please include:</p>
       <ul class="bugs-list" role="list">
-        <li data-i18n="bugs.item_state">A PCSX2 save state (default hotkey F1) from just before a crash - not at the frozen screen.</li>
+        <li data-i18n="bugs.item_state">A PCSX2 save state (default hotkey F1) from just before a crash, not from the frozen screen itself.</li>
         <li data-i18n="bugs.item_mcard">An in-game memory-card save near the problem.</li>
         <li data-i18n="bugs.item_repro">A one-line description of what you did.</li>
         <li data-i18n="bugs.item_shot">A screenshot for any bad text, formatting or untranslated content.</li>
@@ -678,7 +678,7 @@
   <!-- ===== Footer ===== -->
   <footer class="footer">
     <div class="divider" aria-hidden="true"><span>❖</span></div>
-    <p class="disclaimer" data-i18n="footer.disclaimer">Unofficial fan project. Not affiliated with or endorsed by Atlus or RACJIN. You must legally own the original game. No copyrighted game data is distributed - this is a patch you apply to your own disc dump.</p>
+    <p class="disclaimer" data-i18n="footer.disclaimer">Unofficial fan project. Not affiliated with or endorsed by Atlus or RACJIN. You must legally own the original game. No copyrighted game data is distributed; this is a patch you apply to your own disc dump.</p>
     <p class="footer-links">
       <a href="https://github.com/Fabulu/Busin0Translation" target="_blank" rel="noopener" data-i18n="footer.source">Source on GitHub</a>
       &middot;
