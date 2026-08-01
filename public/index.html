@@ -158,9 +158,9 @@
       <p class="lede" data-i18n="dl.intro">The translation ships as an xdelta patch you apply to your own legal Japanese disc image. No game data is included.</p>
 
       <div class="download-card">
-        <a class="btn btn-download" href="patch/busin0_en_v201.xdelta" download="busin0_en_v201.xdelta">
+        <a class="btn btn-download" href="patch/busin0_en_v202.xdelta" download="busin0_en_v202.xdelta">
           <span class="btn-download-main" data-i18n="dl.button">Download the patch</span>
-          <span class="btn-download-sub">busin0_en_v201.xdelta · 1054&nbsp;KB · v201 <span data-i18n="dl.beta">beta</span></span>
+          <span class="btn-download-sub">busin0_en_v202.xdelta · 1054&nbsp;KB · v202 <span data-i18n="dl.beta">beta</span></span>
         </a>
         <p class="download-secondary">
           <a href="patch/README.md" data-i18n="dl.readme">Read the README</a>
@@ -182,9 +182,9 @@
           </li>
           <li>
             <span data-i18n="dl.apply_cli">Apply with xdelta3 on the command line:</span>
-            <pre class="code"><code>xdelta3 -d -s "Busin 0 (Japan) SLPM-65378.iso" busin0_en_v201.xdelta BUSIN0_EN.iso</code></pre>
+            <pre class="code"><code>xdelta3 -d -s "Busin 0 (Japan) SLPM-65378.iso" busin0_en_v202.xdelta BUSIN0_EN.iso</code></pre>
           </li>
-          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v201.xdelta, then Apply.</li>
+          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v202.xdelta, then Apply.</li>
           <li data-i18n="dl.apply_boot">Boot the resulting ISO fresh from the title screen. Do not load an old save state from before patching.</li>
         </ol>
 
@@ -196,8 +196,8 @@
           </div>
           <div class="md5-chip">
             <span class="md5-label" data-i18n="dl.md5_patched">Patched ISO MD5</span>
-            <code class="md5-val">70d0724fedec72e69aa6ec3d75f0ee31</code>
-            <button type="button" class="copy-btn" data-copy="70d0724fedec72e69aa6ec3d75f0ee31" data-i18n-aria="dl.copy_aria" aria-label="Copy patched MD5">⧉</button>
+            <code class="md5-val">95dea66003b6d0ed6d333010fdeb73ea</code>
+            <button type="button" class="copy-btn" data-copy="95dea66003b6d0ed6d333010fdeb73ea" data-i18n-aria="dl.copy_aria" aria-label="Copy patched MD5">⧉</button>
           </div>
         </div>
       </div>
@@ -211,6 +211,19 @@
       <p class="lede" data-i18n="cl.intro">What changed in each release. Expand a version for the details.</p>
 
       <details class="changelog" open>
+        <summary>
+          <span class="cl-version">v202</span>
+          <span class="cl-date" data-i18n="cl.v202.date">August 2026</span>
+          <span class="cl-sub" data-i18n="cl.v202.sub">The head-start bonus for owning the previous game now works with its US release &mdash; Wizardry: Tale of the Forsaken Land.</span>
+        </summary>
+        <ul class="cl-list" role="list">
+          <li data-i18n="cl.v202.i1"><strong>The prequel-save bonus now recognizes the US previous game.</strong> Starting a new game with a save from the previous title on your memory card gives a small head start &mdash; extra character-creation points, slightly better starting equipment, and pre-made companions renamed after that game&rsquo;s cast. Busin 0 only ever looked for a save from the Japanese predecessor; it now looks for the North American release, Wizardry: Tale of the Forsaken Land (Atlus, 2001 &mdash; disc serial SLUS-20259), which is what an English-patch player is far more likely to own. Keep a memory-card save from that US game in your console and boot Busin 0 to receive the bonus &mdash; booting the US game once and saving is enough. Boot-confirmed on a real save.</li>
+          <li data-i18n="cl.v202.i2"><strong>One note if you have the Japanese predecessor.</strong> The check was swapped to the US game, not added alongside it, so a save from the Japanese BUSIN ~Wizardry Alternative~ (SLPM-62098) is no longer detected. This is the first change to the game&rsquo;s executable since v180 &mdash; a single memory-card directory name &mdash; so stability is unchanged. This disc is SLPM-65378, software v1.03.</li>
+        </ul>
+        <a class="cl-dl" href="patch/busin0_en_v202.xdelta" download="busin0_en_v202.xdelta"><span data-i18n="cl.download">Download this version</span> &middot; busin0_en_v202.xdelta &middot; 1054&nbsp;KB</a>
+      </details>
+
+      <details class="changelog">
         <summary>
           <span class="cl-version">v201</span>
           <span class="cl-date" data-i18n="cl.v201.date">July 2026</span>
