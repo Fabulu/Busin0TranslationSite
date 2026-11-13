@@ -158,9 +158,9 @@
       <p class="lede" data-i18n="dl.intro">The translation ships as an xdelta patch you apply to your own legal Japanese disc image. No game data is included.</p>
 
       <div class="download-card">
-        <a class="btn btn-download" href="patch/busin0_en_v204.xdelta" download="busin0_en_v204.xdelta">
+        <a class="btn btn-download" href="patch/busin0_en_v205.xdelta" download="busin0_en_v205.xdelta">
           <span class="btn-download-main" data-i18n="dl.button">Download the patch</span>
-          <span class="btn-download-sub">busin0_en_v204.xdelta · 1098&nbsp;KB · v204 <span data-i18n="dl.beta">beta</span></span>
+          <span class="btn-download-sub">busin0_en_v205.xdelta · 1098&nbsp;KB · v205 <span data-i18n="dl.beta">beta</span></span>
         </a>
         <p class="download-secondary">
           <a href="patch/README.md" data-i18n="dl.readme">Read the README</a>
@@ -182,9 +182,9 @@
           </li>
           <li>
             <span data-i18n="dl.apply_cli">Apply with xdelta3 on the command line:</span>
-            <pre class="code"><code>xdelta3 -d -s "Busin 0 (Japan) SLPM-65378.iso" busin0_en_v204.xdelta BUSIN0_EN.iso</code></pre>
+            <pre class="code"><code>xdelta3 -d -s "Busin 0 (Japan) SLPM-65378.iso" busin0_en_v205.xdelta BUSIN0_EN.iso</code></pre>
           </li>
-          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v204.xdelta, then Apply.</li>
+          <li data-i18n-html="dl.apply_gui">Or use a GUI such as <a href="https://github.com/marco-calautti/DeltaPatcher" target="_blank" rel="noopener">Delta Patcher</a>: set the original file to your JP ISO, the patch to busin0_en_v205.xdelta, then Apply.</li>
           <li data-i18n="dl.apply_boot">Boot the resulting ISO fresh from the title screen. Do not load an old save state from before patching.</li>
         </ol>
 
@@ -196,8 +196,8 @@
           </div>
           <div class="md5-chip">
             <span class="md5-label" data-i18n="dl.md5_patched">Patched ISO MD5</span>
-            <code class="md5-val">405cd968ad2031e4212d5314cbe57d7f</code>
-            <button type="button" class="copy-btn" data-copy="405cd968ad2031e4212d5314cbe57d7f" data-i18n-aria="dl.copy_aria" aria-label="Copy patched MD5">⧉</button>
+            <code class="md5-val">df88c6131968ba4b41c8730fe9dfbb8a</code>
+            <button type="button" class="copy-btn" data-copy="df88c6131968ba4b41c8730fe9dfbb8a" data-i18n-aria="dl.copy_aria" aria-label="Copy patched MD5">⧉</button>
           </div>
         </div>
       </div>
@@ -211,6 +211,18 @@
       <p class="lede" data-i18n="cl.intro">What changed in each release. Expand a version for the details.</p>
 
       <details class="changelog" open>
+        <summary>
+          <span class="cl-version">v205</span>
+          <span class="cl-date" data-i18n="cl.v205.date">November 2026</span>
+          <span class="cl-sub" data-i18n="cl.v205.sub">The Weak Smash entry in the Library now shows its own description.</span>
+        </summary>
+        <ul class="cl-list" role="list">
+          <li data-i18n="cl.v205.i1">Weak Smash description. A player noticed that the Library entry for the Allied Action Weak Smash showed a page from Oda&rsquo;s journal instead of its description. A copy mistake from the big library update had put the journal text there, and the real description was never written. It now explains the move, and a new check stops any two Library entries from sharing the same text by accident.</li>
+        </ul>
+        <a class="cl-dl" href="patch/busin0_en_v205.xdelta" download="busin0_en_v205.xdelta"><span data-i18n="cl.download">Download this version</span> &middot; busin0_en_v205.xdelta &middot; 1098&nbsp;KB</a>
+      </details>
+
+      <details class="changelog">
         <summary>
           <span class="cl-version">v204</span>
           <span class="cl-date" data-i18n="cl.v204.date">November 2026</span>
